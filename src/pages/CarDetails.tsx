@@ -133,7 +133,7 @@ const CarDetails = () => {
                   </Button>
                 </a>
 
-                <a href={`tel:+923001234567`}>
+                <a href={`tel:+923345215337`}>
                   <Button className="w-full" variant="outline" size="lg">
                     <Phone className="mr-2 h-5 w-5" />
                     Call Now
