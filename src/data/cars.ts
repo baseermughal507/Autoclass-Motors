@@ -229,5 +229,37 @@ export const cars: Car[] = [
     assembly: 'Imported',
     engine_capacity: '4000cc',
     body_type: 'SUV'
+  },
+    {
+    id: '11',
+    title: 'Toyota Fortuner 2019',
+    main_image: '/cars/fortuner/1.jpg',
+     images: [
+    "/cars/fortuner/1.jpg",
+    "/cars/fortuner/2.jpg",
+    "/cars/fortuner/3.jpg",
+    "/cars/fortuner/4.jpg",
+    "/cars/fortuner/5.jpg",
+    "/cars/fortuner/6.jpg",
+    "/cars/fortuner/7.jpg",
+    "/cars/fortuner/8.jpg",
+    "/cars/fortuner/9.jpg"
+   
+  ],
+    price: 10500000,
+    description: 'Toyota Fortuner 2019 2.8D Sigma Islamabad Registered',
+    short_description: 'Well maintained, excellent condition, accident-free',
+    is_sold: false,
+    year: 2019,
+    mileage: '105000 km',
+    fuel_type: 'Diesel',
+    transmission: 'Automatic',
+    city: 'Islamabad',
+    province: 'Pakistan',
+    color: 'White',
+    assembly: 'Local',
+    engine_capacity: '2.8cc',
+    body_type: 'SUV',
+    
   }
 ];
