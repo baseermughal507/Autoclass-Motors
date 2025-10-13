@@ -12,20 +12,24 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
-          <div>
-            <div className="flex items-center space-x-3 mb-4">
-              <div className="bg-accent p-2 rounded-lg">
-                <Car className="h-6 w-6" />
-              </div>
-              <div>
-                <h3 className="text-lg font-bold">AUTOCLASS MOTORS</h3>
+           <div>
+            <div className="flex items-center space-x-4 mb-4">
+              <img 
+                src="/logo.png"   
+                alt="Autoclass Motors Logo"
+                className="h-14 w-auto rounded-lg shadow-[0_0_12px_rgba(255,0,0,0.3)]"
+              />
+              <div className="flex flex-col justify-center">
+               <h3 className="text-lg font-bold">AUTOCLASS MOTORS</h3>
                 <p className="text-xs text-secondary">Drive Luxury. Drive Smart.</p>
               </div>
             </div>
-            <p className="text-sm text-muted-foreground">
-              Your trusted partner for premium used cars. Quality vehicles, unmatched standards
+
+            <p className="text-sm text-muted-foreground leading-relaxed">
+              Your trusted partner for premium used cars. Quality vehicles, unmatched standards.
             </p>
           </div>
+
 
           {/* Quick Links */}
           <div>
@@ -55,7 +59,7 @@ const Footer = () => {
           </div>
 
           
-          {/* 3️ Email & Address (Middle Column) */}
+          {/*  Email & Address (Middle Column) */}
           <div>
             <h4 className="text-sm font-bold mb-4 text-accent">Email & Address</h4>
             <ul className="space-y-3">

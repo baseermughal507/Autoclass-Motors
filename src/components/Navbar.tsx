@@ -19,15 +19,23 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3 group">
-            <div className="bg-accent p-2 rounded-lg group-hover:scale-110 transition-transform">
-              <Car className="h-6 w-6 text-white" />
-            </div>
-            <div>
-              <h1 className="text-xl font-bold tracking-tight">AUTOCLASS MOTORS</h1>
-              <p className="text-xs text-gray-300 tracking-wider"></p>
-            </div>
-          </Link>
+          {/* Logo */}
+<Link to="/" className="flex items-center space-x-5 group">
+  {/* ✅ Big logo */}
+  <img
+    src="/logo.png"
+    alt="Autoclass Motors Logo"
+    className="h-52 w-auto rounded-2xl group-hover:scale-110 transition-transform duration-300"
+  />
+  {/*
+ <div>
+  <h1 className="text-2xl font-bold tracking-tight">AUTOCLASS MOTORS</h1>
+  <p className="text-sm text-gray-300 tracking-wider"></p>
+</div>
+    */}
+</Link>
+
+
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
