@@ -126,7 +126,7 @@ const CarDetails = () => {
             <Card className="p-6 sticky top-24">
               <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
               <div className="flex flex-col gap-4">
-                <a href="mailto:info@autoclassmotors.com" target="_blank" rel="noopener noreferrer">
+                <a href="mailto:zaynmughal182@gmail.com" target="_blank" rel="noopener noreferrer">
                   <Button className="w-full" size="lg">
                     <MessageSquare className="mr-2 h-5 w-5" />
                     Send Message

@@ -203,7 +203,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-bold mb-1">Email Us</h3>
-                      <p className="text-muted-foreground text-lg font-medium">info@autoclassmotors.com</p>
+                      <p className="text-muted-foreground text-lg font-medium">zaynmughal182@gmail.com</p>
                     </div>
                   </div>
 
