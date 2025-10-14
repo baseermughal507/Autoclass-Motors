@@ -261,5 +261,26 @@ export const cars: Car[] = [
     engine_capacity: '2.8cc',
     body_type: 'SUV',
     
+  },
+  {
+    id: '12',
+    title: 'Suzuki Wagon R 2019',
+    main_image: 'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=800',
+    price: 1950000,
+    description: 'Practical Suzuki Wagon R with spacious interior despite compact size. Great for city driving and parking.',
+    short_description: 'Compact but spacious, city friendly',
+    is_sold: false,
+    year: 2019,
+    mileage: '42,000 km',
+    fuel_type: 'Petrol',
+    transmission: 'Automatic',
+    city: 'Karachi',
+    province: 'Sindh',
+    color: 'Silver',
+    assembly: 'Local',
+    engine_capacity: '1000cc',
+    body_type: 'Hatchback',
+
+   
   }
 ];

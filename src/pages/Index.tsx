@@ -78,82 +78,95 @@ const Index = () => {
       </section>
 
       {/* Featured Cars Section */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2
-              className="text-4xl md:text-5xl font-bold mb-4"
-              style={{ fontFamily: "'Bebas Neue', sans-serif" }}
-            >
-              Featured Vehicles
-            </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Latest Arrivals. Top Picks. Your Next Ride Awaits.
-            </p>
-          </div>
-
-          {isLoading ? (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-              {[1, 2, 3, 4, 5, 6].map((i) => (
-                <div key={i} className="space-y-4">
-                  <Skeleton className="h-64 w-full rounded-lg" />
-                  <Skeleton className="h-6 w-3/4" />
-                  <Skeleton className="h-4 w-1/2" />
-                </div>
-              ))}
+        <section className="py-20">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2
+                className="text-4xl md:text-5xl font-bold mb-4"
+                style={{ fontFamily: "'Bebas Neue', sans-serif" }}
+              >
+                Featured Vehicles
+              </h2>
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                Latest Arrivals. Top Picks. Your Next Ride Awaits.
+              </p>
             </div>
-          ) : (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-              {featuredCars.map((car) => (
-                <Link key={car.id} to={`/cars/${car.id}`}>
-                  <Card className="group overflow-hidden hover:shadow-xl transition-shadow relative h-full border">
-                    {car.is_sold && (
-                      <div className="absolute inset-0 bg-black/60 z-10 flex items-center justify-center">
-                        <Badge
-                          variant="destructive"
-                          className="text-2xl px-6 py-2 font-bold"
-                        >
-                          SOLD
-                        </Badge>
-                      </div>
-                    )}
-                    <img
-                      src={car.main_image}
-                      alt={car.title}
-                      className="w-full h-56 object-cover group-hover:scale-105 transition-transform"
-                    />
-                    <CardContent className="p-6">
-                      <h3 className="font-bold text-xl mb-2">{car.title}</h3>
-                      <p className="text-2xl font-bold text-accent mb-2">
-                        Rs. {car.price.toLocaleString()}
-                      </p>
-                      <p className="text-sm text-muted-foreground line-clamp-2 mb-4">
-                        {car.short_description}
-                      </p>
-                      <Button
-                        variant="default"
-                        className="w-full group-hover:bg-accent transition-colors"
-                      >
-                        View Details
-                        <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                      </Button>
-                    </CardContent>
-                  </Card>
-                </Link>
-              ))}
-            </div>
-          )}
 
-          <div className="text-center mt-12">
-            <Link to="/cars">
-              <Button size="lg" variant="outline" className="border-2 group text-lg px-8">
-                View All Cars
-                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-              </Button>
-            </Link>
+            {isLoading ? (
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                {[1, 2, 3, 4, 5, 6].map((i) => (
+                  <div key={i} className="space-y-4">
+                    <Skeleton className="h-64 w-full rounded-lg" />
+                    <Skeleton className="h-6 w-3/4" />
+                    <Skeleton className="h-4 w-1/2" />
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <>
+                {(() => {
+                  // Select 6 latest cars
+                  const featuredCars = [...cars].reverse().slice(0, 6);
+                  return (
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                      {featuredCars.map((car) => (
+                        <Link key={car.id} to={`/cars/${car.id}`}>
+                          <Card className="group overflow-hidden hover:shadow-xl transition-shadow relative h-full border">
+                            {car.is_sold && (
+                              <div className="absolute inset-0 bg-black/60 z-10 flex items-center justify-center">
+                                <Badge
+                                  variant="destructive"
+                                  className="text-2xl px-6 py-2 font-bold"
+                                >
+                                  SOLD
+                                </Badge>
+                              </div>
+                            )}
+                            <img
+                              src={car.main_image}
+                              alt={car.title}
+                              className="w-full h-56 object-cover group-hover:scale-105 transition-transform"
+                            />
+                            <CardContent className="p-6">
+                              <h3 className="font-bold text-xl mb-2">{car.title}</h3>
+                              <p className="text-2xl font-bold text-accent mb-2">
+                                Rs. {car.price.toLocaleString()}
+                              </p>
+                              <p className="text-sm text-muted-foreground line-clamp-2 mb-4">
+                                {car.short_description}
+                              </p>
+                              <Button
+                                variant="default"
+                                className="w-full group-hover:bg-accent transition-colors"
+                              >
+                                View Details
+                                <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                              </Button>
+                            </CardContent>
+                          </Card>
+                        </Link>
+                      ))}
+                    </div>
+                  );
+                })()}
+              </>
+            )}
+
+            <div className="text-center mt-12">
+              <Link to="/cars">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-2 group text-lg px-8"
+                >
+                  View All Cars
+                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </Link>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+
 
       {/* Full-Width Video Section */}
       <section className="py-12 relative">

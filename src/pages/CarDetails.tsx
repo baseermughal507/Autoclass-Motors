@@ -1,4 +1,4 @@
-import { useParams, Link, Navigate } from "react-router-dom";
+import { useParams, Navigate, useNavigate,Link } from "react-router-dom";
 import { useState } from "react";
 import { cars } from "@/data/cars";
 import Navbar from "@/components/Navbar";
@@ -25,6 +25,7 @@ import {
 
 const CarDetails = () => {
   const { id } = useParams();
+  const navigate = useNavigate();
   const car = cars.find((c) => String(c.id) === id);
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
 
@@ -38,14 +39,15 @@ const CarDetails = () => {
       <Navbar />
 
       <div className="container mx-auto px-4 py-8 mt-20">
-        <div className="mb-6">
-          <Link to="/cars">
-            <Button variant="ghost">
-              <ArrowLeft className="mr-2 h-4 w-4" />
-              Back to Cars
-            </Button>
-          </Link>
-        </div>
+      <div className="mb-6 mt-4">
+        <Link to="/cars">
+        <Button variant="ghost">
+          <ArrowLeft className="mr-2 h-4 w-4" />
+          Back to Cars
+        </Button>
+      </Link>
+      </div>
+
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Left: Carousel + Car Info */}
@@ -110,7 +112,6 @@ const CarDetails = () => {
                 <Spec icon={<Factory />} label="Assembly" value={car.assembly} />
                 <Spec icon={<CarIcon />} label="Body Type" value={car.body_type} />
               </div>
-              
             </Card>
 
             <Card className="p-6">
