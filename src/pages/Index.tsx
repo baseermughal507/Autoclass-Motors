@@ -34,7 +34,7 @@ const Index = () => {
           playsInline
           className="absolute inset-0 w-full h-full object-cover"
         >
-          <source src="/exterior.mp4" type="video/mp4" />
+          <source src="/Final-Exterior-1.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-primary/10 to-transparent" />
 
