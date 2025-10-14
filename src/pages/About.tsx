@@ -47,9 +47,23 @@ const About = () => {
 
             <div className="mt-10 text-center">
             <hr className="border-t-2 border-primary w-24 mx-auto mb-4" />
-            <h3 className="text-2xl font-semibold italic text-muted-foreground">M Jalal ud din Mughal</h3>
-            <h3 className="text-2xl font-semibold italic text-muted-foreground">M Zain ul abi din Mughal</h3>
+
+            <h3
+              className="text-2xl md:text-3xl font-extrabold bg-clip-text text-transparent 
+                        bg-gradient-to-r from-red-600 to-black animate-pulse mb-2"
+              style={{ fontFamily: "'Bebas Neue', sans-serif" }}
+            >
+              M Jalal ud din Mughal
+            </h3>
+            <h3
+              className="text-2xl md:text-3xl font-extrabold bg-clip-text text-transparent 
+                        bg-gradient-to-r from-red-600 to-black animate-pulse"
+              style={{ fontFamily: "'Bebas Neue', sans-serif" }}
+            >
+              M Zain ul abi din Mughal
+            </h3>
           </div>
+
 
           </div>
         </div>
