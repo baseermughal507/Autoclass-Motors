@@ -486,38 +486,6 @@ export const cars: Car[] = [
     
   },
   {
-    id: '16',
-    title: 'Toyota Passo 2010 ',
-    main_image: '/cars/passo10/1.jpg',
-    images: [
-    "/cars/passo10/2.jpg",
-    "/cars/passo10/3.jpg",
-    "/cars/passo10/4.jpg",
-    '/cars/passo10/5.jpg',
-    '/cars/passo10/6.jpg',
-    '/cars/passo10/7.jpg',
-    '/cars/passo10/8.jpg'
-
-
-  ],
-    price: 7200000,
-    description: 'Rugged Toyota Hilux pickup, perfect for business and adventure. Powerful engine, excellent condition.',
-    short_description: 'Powerful pickup, business ready',
-    is_sold: false,
-    year: 2017,
-    mileage: '95,000 km',
-    fuel_type: 'Diesel',
-    transmission: 'Manual',
-    city: 'Peshawar',
-    province: 'KPK',
-    color: 'Silver',
-    assembly: 'Local',
-    engine_capacity: '2800cc',
-    body_type: 'Pickup'
-
-    
-  },
-  {
     id: '17',
     title: 'Honda Civic 2021 Oriel UG ',
     main_image: '/cars/civic21/1.jpg',
