@@ -336,12 +336,11 @@ export const cars: Car[] = [
     engine_capacity: '4000cc',
     body_type: 'SUV'
   },
-    {
+  {
     id: '11',
     title: 'Honda Civic 2016',
     main_image: '/cars/civic16/1.jpg',
      images: [
-    "/cars/civic16/1.jpg",
     "/cars/civic16/2.jpg",
     "/cars/civic16/3.jpg",
     "/cars/civic16/4.jpg",
@@ -486,7 +485,7 @@ export const cars: Car[] = [
     
   },
   {
-    id: '17',
+    id: '16',
     title: 'Honda Civic 2021 Oriel UG ',
     main_image: '/cars/civic21/1.jpg',
     images: [
@@ -518,7 +517,7 @@ export const cars: Car[] = [
     
   },
   {
-    id: '18',
+    id: '17',
     title: 'Toyota Tundra 2010 ',
     main_image: '/cars/tundra10/1.jpg',
     images: [
@@ -550,7 +549,7 @@ export const cars: Car[] = [
     
   },
   {
-    id: '19',
+    id: '18',
     title: 'Honda Civic 2017 ',
     main_image: '/cars/civic17_hardtop/1.jpg',
     images: [
@@ -589,7 +588,7 @@ export const cars: Car[] = [
     
   },
   {
-    id: '20',
+    id: '19',
     title: 'Honda Civic 2018 Oriel  ',
     main_image: '/cars/civic18/1.jpg',
     images: [
@@ -618,7 +617,7 @@ export const cars: Car[] = [
     
   },
   {
-    id: '21',
+    id: '20',
     title: 'Toyota Revo V 2022  ',
     main_image: '/cars/revo22_V/1.jpg',
     images: [
@@ -642,6 +641,300 @@ export const cars: Car[] = [
     engine_capacity: '2800cc',
     body_type: 'Pickup'
 
+    
+  },
+   {
+    id: '21',
+    title: 'Suzuki Alto VXR 2024',
+    main_image: '/cars/alto24/1.jpg',
+     images: [
+    "/cars/alto24/2.jpg",
+    "/cars/alto24/3.jpg",
+    "/cars/alto24/4.jpg",
+    "/cars/alto24/5.jpg",
+    "/cars/alto24/6.jpg",
+    "/cars/alto24/7.jpg",
+    "/cars/alto24/8.jpg",
+    "/cars/alto24/9.jpg"
+   
+  ],
+    price: 10500000,
+    description: 'Toyota Fortuner 2019 2.8D Sigma Islamabad Registered',
+    short_description: 'Well maintained, excellent condition, accident-free',
+    is_sold: false,
+    year: 2019,
+    mileage: '105000 km',
+    fuel_type: 'Diesel',
+    transmission: 'Automatic',
+    city: 'Islamabad',
+    province: 'Pakistan',
+    color: 'White',
+    assembly: 'Local',
+    engine_capacity: '2.8cc',
+    body_type: 'SUV',
+    
+  },
+   {
+    id: '22',
+    title: 'MG HS 2021 Model',
+    main_image: '/cars/mg21/1.jpg',
+     images: [
+    "/cars/mg21/2.jpg",
+    "/cars/mg21/3.jpg",
+    "/cars/mg21/4.jpg",
+    "/cars/mg21/5.jpg",
+    "/cars/mg21/6.jpg",
+    "/cars/mg21/7.jpg",
+    "/cars/mg21/8.jpg",
+    "/cars/mg21/9.jpg",
+    "/cars/mg21/9.jpg"
+  ],
+    price: 10500000,
+    description: 'Toyota Fortuner 2019 2.8D Sigma Islamabad Registered',
+    short_description: 'Well maintained, excellent condition, accident-free',
+    is_sold: false,
+    year: 2019,
+    mileage: '105000 km',
+    fuel_type: 'Diesel',
+    transmission: 'Automatic',
+    city: 'Islamabad',
+    province: 'Pakistan',
+    color: 'White',
+    assembly: 'Local',
+    engine_capacity: '2.8cc',
+    body_type: 'SUV',
+    
+  },
+   {
+    id: '23',
+    title: 'Toyota Revo 2022 Model',
+    main_image: '/cars/revo22/1.jpg',
+     images: [
+    "/cars/revo22/2.jpg",
+    "/cars/revo22/3.jpg",
+    "/cars/revo22/4.jpg",
+    "/cars/revo22/5.jpg",
+    "/cars/revo22/6.jpg"
+  ],
+    price: 10500000,
+    description: 'Toyota Fortuner 2019 2.8D Sigma Islamabad Registered',
+    short_description: 'Well maintained, excellent condition, accident-free',
+    is_sold: false,
+    year: 2019,
+    mileage: '105000 km',
+    fuel_type: 'Diesel',
+    transmission: 'Automatic',
+    city: 'Islamabad',
+    province: 'Pakistan',
+    color: 'White',
+    assembly: 'Local',
+    engine_capacity: '2.8cc',
+    body_type: 'SUV',
+    
+  },
+   {
+    id: '24',
+    title: 'Honda Civic UG 2018',
+    main_image: '/cars/civic18_UG/1.jpg',
+     images: [
+    "/cars/civic18_UG/2.jpg",
+    "/cars/civic18_UG/3.jpg",
+    "/cars/civic18_UG/4.jpg",
+    "/cars/civic18_UG/5.jpg",
+    "/cars/civic18_UG/6.jpg",
+    "/cars/civic18_UG/7.jpg",
+    "/cars/civic18_UG/8.jpg"
+   
+  ],
+    price: 10500000,
+    description: 'Toyota Fortuner 2019 2.8D Sigma Islamabad Registered',
+    short_description: 'Well maintained, excellent condition, accident-free',
+    is_sold: false,
+    year: 2019,
+    mileage: '105000 km',
+    fuel_type: 'Diesel',
+    transmission: 'Automatic',
+    city: 'Islamabad',
+    province: 'Pakistan',
+    color: 'White',
+    assembly: 'Local',
+    engine_capacity: '2.8cc',
+    body_type: 'SUV',
+    
+  },
+   {
+    id: '25',
+    title: 'Honda Accord CL9 2003 ',
+    main_image: '/cars/accord2003/1.jpg',
+     images: [
+    "/cars/accord2003/2.jpg",
+    "/cars/accord2003/3.jpg",
+    "/cars/accord2003/4.jpg",
+    "/cars/accord2003/5.jpg",
+    "/cars/accord2003/6.jpg",
+    "/cars/accord2003/7.jpg",
+    "/cars/accord2003/8.jpg",
+    "/cars/accord2003/9.jpg"
+   
+  ],
+    price: 10500000,
+    description: 'Toyota Fortuner 2019 2.8D Sigma Islamabad Registered',
+    short_description: 'Well maintained, excellent condition, accident-free',
+    is_sold: false,
+    year: 2019,
+    mileage: '105000 km',
+    fuel_type: 'Diesel',
+    transmission: 'Automatic',
+    city: 'Islamabad',
+    province: 'Pakistan',
+    color: 'White',
+    assembly: 'Local',
+    engine_capacity: '2.8cc',
+    body_type: 'SUV',
+    
+  },
+   {
+    id: '26',
+    title: 'Toyota Revo V 2.8 Diesel 2018',
+    main_image: '/cars/revo_trd_18/1.jpg',
+     images: [
+    "/cars/revo_trd_18/2.jpg",
+    "/cars/revo_trd_18/3.jpg",
+    "/cars/revo_trd_18/4.jpg"
+   
+  ],
+    price: 10500000,
+    description: 'Toyota Fortuner 2019 2.8D Sigma Islamabad Registered',
+    short_description: 'Well maintained, excellent condition, accident-free',
+    is_sold: false,
+    year: 2019,
+    mileage: '105000 km',
+    fuel_type: 'Diesel',
+    transmission: 'Automatic',
+    city: 'Islamabad',
+    province: 'Pakistan',
+    color: 'White',
+    assembly: 'Local',
+    engine_capacity: '2.8cc',
+    body_type: 'SUV',
+    
+  },
+   {
+    id: '27',
+    title: 'Honda Vezel 2014',
+    main_image: '/cars/vezel_14-19-21/1.jpg',
+     images: [
+    "/cars/vezel_14-19-21/2.jpg",
+    "/cars/vezel_14-19-21/3.jpg",
+    "/cars/vezel_14-19-21/4.jpg",
+    "/cars/vezel_14-19-21/5.jpg",
+    "/cars/vezel_14-19-21/6.jpg",
+    "/cars/vezel_14-19-21/7.jpg",
+    "/cars/vezel_14-19-21/8.jpg",
+    "/cars/vezel_14-19-21/9.jpg"
+   
+  ],
+    price: 10500000,
+    description: 'Toyota Fortuner 2019 2.8D Sigma Islamabad Registered',
+    short_description: 'Well maintained, excellent condition, accident-free',
+    is_sold: false,
+    year: 2019,
+    mileage: '105000 km',
+    fuel_type: 'Diesel',
+    transmission: 'Automatic',
+    city: 'Islamabad',
+    province: 'Pakistan',
+    color: 'White',
+    assembly: 'Local',
+    engine_capacity: '2.8cc',
+    body_type: 'SUV',
+    
+  },
+   {
+    id: '28',
+    title: 'Honda Civic UG Full Option 2020',
+    main_image: '/cars/civic20/1.jpg',
+     images: [
+    "/cars/civic20/2.jpg",
+    "/cars/civic20/3.jpg",
+    "/cars/civic20/4.jpg",
+    "/cars/civic20/5.jpg",
+    "/cars/civic20/6.jpg",
+    "/cars/civic20/7.jpg"
+   
+  ],
+    price: 10500000,
+    description: 'Toyota Fortuner 2019 2.8D Sigma Islamabad Registered',
+    short_description: 'Well maintained, excellent condition, accident-free',
+    is_sold: false,
+    year: 2019,
+    mileage: '105000 km',
+    fuel_type: 'Diesel',
+    transmission: 'Automatic',
+    city: 'Islamabad',
+    province: 'Pakistan',
+    color: 'White',
+    assembly: 'Local',
+    engine_capacity: '2.8cc',
+    body_type: 'SUV',
+    
+  },
+   {
+    id: '29',
+    title: 'Toyota Aqua S Package 2015',
+    main_image: '/cars/aqua15/1.jpg',
+     images: [
+    "/cars/aqua15/2.jpg",
+    "/cars/aqua15/3.jpg",
+    "/cars/aqua15/4.jpg",
+    "/cars/aqua15/5.jpg",
+    "/cars/aqua15/6.jpg",
+    "/cars/aqua15/7.jpg"
+   
+  ],
+    price: 10500000,
+    description: 'Toyota Fortuner 2019 2.8D Sigma Islamabad Registered',
+    short_description: 'Well maintained, excellent condition, accident-free',
+    is_sold: false,
+    year: 2019,
+    mileage: '105000 km',
+    fuel_type: 'Diesel',
+    transmission: 'Automatic',
+    city: 'Islamabad',
+    province: 'Pakistan',
+    color: 'White',
+    assembly: 'Local',
+    engine_capacity: '2.8cc',
+    body_type: 'SUV',
+    
+  },
+   {
+    id: '30',
+    title: 'Honda Civic Oriel 1.5 Turbo 2020',
+    main_image: '/cars/civic_oriel_turbo/1.jpg',
+     images: [
+    "/cars/civic_oriel_turbo/2.jpg",
+    "/cars/civic_oriel_turbo/3.jpg",
+    "/cars/civic_oriel_turbo/4.jpg",
+    "/cars/civic_oriel_turbo/5.jpg",
+    "/cars/civic_oriel_turbo/6.jpg",
+    "/cars/civic_oriel_turbo/7.jpg",
+    "/cars/civic_oriel_turbo/8.jpg"
+  ],
+    price: 10500000,
+    description: 'Toyota Fortuner 2019 2.8D Sigma Islamabad Registered',
+    short_description: 'Well maintained, excellent condition, accident-free',
+    is_sold: false,
+    year: 2019,
+    mileage: '105000 km',
+    fuel_type: 'Diesel',
+    transmission: 'Automatic',
+    city: 'Islamabad',
+    province: 'Pakistan',
+    color: 'White',
+    assembly: 'Local',
+    engine_capacity: '2.8cc',
+    body_type: 'SUV',
     
   }
 
