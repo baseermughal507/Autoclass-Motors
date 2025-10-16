@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Car } from "@/data/cars"; // adjust path if needed
+import { Car } from "@/data/cars";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -9,8 +9,9 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import ImageGallery from "react-image-gallery";
-import "react-image-gallery/styles/css/image-gallery.css";
+import { useSwipeable } from "react-swipeable";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 interface CarCardProps {
   car: Car;
@@ -18,19 +19,28 @@ interface CarCardProps {
 
 export function CarCard({ car }: CarCardProps) {
   const [showGallery, setShowGallery] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   const images =
-    car.images && car.images.length > 0
-      ? car.images.map((img) => ({
-          original: img,
-          thumbnail: img,
-        }))
-      : [
-          {
-            original: car.main_image,
-            thumbnail: car.main_image,
-          },
-        ];
+    car.images && car.images.length > 0 ? car.images : [car.main_image];
+
+  const handleSwipe = useSwipeable({
+    onSwipedLeft: () =>
+      setCurrentIndex((prev) => (prev + 1) % images.length),
+    onSwipedRight: () =>
+      setCurrentIndex((prev) =>
+        prev === 0 ? images.length - 1 : prev - 1
+      ),
+    trackMouse: true,
+  });
+
+  const nextImage = () =>
+    setCurrentIndex((prev) => (prev + 1) % images.length);
+
+  const prevImage = () =>
+    setCurrentIndex((prev) =>
+      prev === 0 ? images.length - 1 : prev - 1
+    );
 
   return (
     <>
@@ -43,10 +53,7 @@ export function CarCard({ car }: CarCardProps) {
         <div className="relative">
           <Carousel className="w-full">
             <CarouselContent>
-              {(car.images && car.images.length > 0
-                ? car.images
-                : [car.main_image]
-              ).map((img, index) => (
+              {images.map((img, index) => (
                 <CarouselItem key={index}>
                   <img
                     src={img}
@@ -81,25 +88,42 @@ export function CarCard({ car }: CarCardProps) {
         </div>
       </Card>
 
-      {/* ✅ Fullscreen Image Viewer */}
+      {/* ✅ Fullscreen Viewer */}
       {showGallery && (
-        <div className="fixed inset-0 bg-black/90 flex items-center justify-center z-50">
-          <div className="w-full max-w-5xl relative">
+        <div
+          className="fixed inset-0 bg-black/90 flex items-center justify-center z-50"
+          {...handleSwipe}
+        >
+          <button
+            onClick={() => setShowGallery(false)}
+            className="absolute top-4 right-4 z-50 text-white text-2xl font-bold bg-black/50 px-3 py-1 rounded-full"
+          >
+            ✕
+          </button>
+
+          {/* ✅ Zoom + Swipe Image */}
+          <div className="relative w-full max-w-4xl flex items-center justify-center">
             <button
-              onClick={() => setShowGallery(false)}
-              className="absolute top-4 right-4 z-50 text-white text-2xl font-bold bg-black/50 px-3 py-1 rounded-full"
+              onClick={prevImage}
+              className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 bg-black/40 hover:bg-black/60 text-white rounded-full px-3 py-2 text-xl"
             >
-              ✕
+              ‹
             </button>
-            <ImageGallery
-              items={images}
-              showThumbnails={false}
-              showPlayButton={false}
-              showFullscreenButton={false}
-              showNav={true}
-              slideInterval={3000}
-              additionalClass="rounded-xl"
-            />
+
+            <Zoom>
+              <img
+                src={images[currentIndex]}
+                alt={`Image ${currentIndex + 1}`}
+                className="max-h-[90vh] rounded-lg object-contain"
+              />
+            </Zoom>
+
+            <button
+              onClick={nextImage}
+              className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 bg-black/40 hover:bg-black/60 text-white rounded-full px-3 py-2 text-xl"
+            >
+              ›
+            </button>
           </div>
         </div>
       )}
