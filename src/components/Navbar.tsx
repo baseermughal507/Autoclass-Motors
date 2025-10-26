@@ -21,7 +21,7 @@ const Navbar = () => {
           {/* Logo */}
           {/* Logo */}
 <Link to="/" className="flex items-center space-x-5 group">
-  {/* ✅ Big logo */}
+  {/*  Big logo */}
   <img
     src="/logo.png"
     alt="Autoclass Motors Logo"
