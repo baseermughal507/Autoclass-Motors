@@ -1,0 +1,5 @@
+{
+  "redirects": [
+    { "source": "/www(.*)", "destination": "https://autoclassmotors.app$1", "permanent": true }
+  ]
+}
