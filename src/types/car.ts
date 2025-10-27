@@ -11,7 +11,7 @@ export interface Car {
   color: string;           // e.g., "White"
   brand: string;           // e.g., "Toyota"
   condition: string;       // e.g., "Used"
-  location: string;        // e.g., "Lahore"
+  registeredIn: string;    // e.g., "Islamabad", "Karachi", "Punjab"
   description: string;     // Short description
   image: string;           // Image URL or local path
 }

@@ -108,7 +108,7 @@ const CarDetails = () => {
                 <Spec icon={<Settings />} label="Transmission" value={car.transmission} />
                 <Spec icon={<CarIcon />} label="Engine" value={car.engine_capacity} />
                 <Spec icon={<Palette />} label="Color" value={car.color} />
-                <Spec icon={<MapPin />} label="Location" value={`${car.city}, ${car.province}`} />
+                <Spec icon={<MapPin />} label="Registered In" value={car.registered_in} />
                 <Spec icon={<Factory />} label="Assembly" value={car.assembly} />
                 <Spec icon={<CarIcon />} label="Body Type" value={car.body_type} />
               </div>
