@@ -31,7 +31,7 @@ const CarDetails = () => {
 
   if (!car) return <Navigate to="/" replace />;
 
-  // ✅ Include main image + other images together in the carousel
+  //  Include main image + other images together in the carousel
   const images = [car.main_image, ...(car.images || [])];
 
   return (
@@ -52,7 +52,7 @@ const CarDetails = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Left: Carousel + Car Info */}
           <div className="lg:col-span-2">
-            {/* ✅ Image Carousel */}
+            {/*  Image Carousel */}
             <div className="relative mb-6 group">
               {car.is_sold && (
                 <div className="absolute top-4 right-4 z-10">
@@ -71,7 +71,7 @@ const CarDetails = () => {
                 />
               </div>
 
-              {/* ✅ Thumbnail Carousel */}
+              {/*  Thumbnail Carousel */}
               {images.length > 1 && (
                 <div className="flex gap-3 mt-4 overflow-x-auto pb-2">
                   {images.map((img, i) => (

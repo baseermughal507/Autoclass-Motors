@@ -44,7 +44,7 @@ export function CarCard({ car }: CarCardProps) {
     )}
   </div>
 
-      {/* ✅ Car Info */}
+      {/* Car Info */}
       <div className="p-4 space-y-2">
         <h3 className="text-lg font-semibold">{car.title}</h3>
         <p className="text-sm text-gray-600">{car.short_description}</p>
@@ -53,7 +53,7 @@ export function CarCard({ car }: CarCardProps) {
           <span className="text-xl font-bold text-red-600">
             Rs {car.price.toLocaleString()}
           </span>
-          <Badge>{car.city}</Badge>
+          <Badge>{car.registered_in}</Badge>
         </div>
       </div>
     </Card>
