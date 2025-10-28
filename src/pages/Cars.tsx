@@ -55,10 +55,11 @@ const Cars = () => {
                   </div>
                 )}
                 <img
-                  src={car.main_image}
-                  alt={car.title}
-                  className="w-full h-56 object-cover group-hover:scale-105 transition-transform"
-                />
+                src={car.main_image}
+                alt={car.title}
+                loading="lazy"
+                className="w-full h-56 object-cover group-hover:scale-105 transition-transform"
+              />
                 <CardContent className="p-6">
                   <h3 className="font-bold text-xl mb-2">{car.title}</h3>
                   <p className="text-2xl font-bold text-accent mb-2">

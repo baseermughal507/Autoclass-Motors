@@ -52,7 +52,7 @@ const CarDetails = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Left: Carousel + Car Info */}
           <div className="lg:col-span-2">
-            {/*  Image Carousel */}
+           {/*  Image Carousel */}
             <div className="relative mb-6 group">
               {car.is_sold && (
                 <div className="absolute top-4 right-4 z-10">
@@ -66,12 +66,13 @@ const CarDetails = () => {
                 <img
                   src={images[lightboxIndex ?? 0]}
                   alt={car.title}
+                  loading="eager"
                   className="w-full h-[500px] object-cover rounded-lg cursor-pointer transition-transform group-hover:scale-[1.02]"
                   onClick={() => setLightboxIndex(0)}
                 />
               </div>
 
-              {/*  Thumbnail Carousel */}
+              {/* Thumbnail Carousel */}
               {images.length > 1 && (
                 <div className="flex gap-3 mt-4 overflow-x-auto pb-2">
                   {images.map((img, i) => (
@@ -79,6 +80,7 @@ const CarDetails = () => {
                       key={i}
                       src={img}
                       alt={`Thumbnail ${i + 1}`}
+                      loading="lazy"
                       onClick={() => setLightboxIndex(i)}
                       className={`h-20 w-28 object-cover rounded-md cursor-pointer transition-all border-2 ${
                         lightboxIndex === i

@@ -167,6 +167,7 @@ const Index = () => {
                             <img
                               src={car.main_image}
                               alt={car.title}
+                              loading="lazy"
                               className="w-full h-56 object-cover group-hover:scale-105 transition-transform"
                             />
                             <CardContent className="p-6">
