@@ -117,6 +117,7 @@ const Contact = () => {
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                       required
+                      autoComplete="name"
                     />
                   </div>
                   <div>
@@ -128,6 +129,7 @@ const Contact = () => {
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                       required
+                      autoComplete="email"
                     />
                   </div>
                   <div>
@@ -137,6 +139,7 @@ const Contact = () => {
                       type="tel"
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+                      autoComplete="tel"
                     />
                   </div>
                   <div>
@@ -148,6 +151,7 @@ const Contact = () => {
                       value={formData.message}
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                       required
+                      autoComplete="on"
                     />
                   </div>
                   <Button
