@@ -80,7 +80,6 @@ const CarDetails = () => {
                       key={i}
                       src={img}
                       alt={`Thumbnail ${i + 1}`}
-                      loading="lazy"
                       onClick={() => setLightboxIndex(i)}
                       className={`h-20 w-28 object-cover rounded-md cursor-pointer transition-all border-2 ${
                         lightboxIndex === i
