@@ -211,7 +211,7 @@ const Index = () => {
         </section>
 
 
-      {/* Full-Width Video Section */}
+      
       {/* Full-Width Video Section (Lazy Loaded) */}
       <section className="py-12 relative">
         <div className="w-full overflow-hidden relative">
