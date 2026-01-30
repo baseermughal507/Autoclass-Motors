@@ -23,9 +23,11 @@ const Navbar = () => {
 <Link to="/" className="flex items-center space-x-5 group">
   {/*  Big logo */}
   <img
-    src="/logo.png"
+    src="/AMlogo.png"
     alt="Autoclass Motors Logo"
-    className="h-52 w-auto rounded-2xl group-hover:scale-110 transition-transform duration-300"
+    className="h-20 w-auto object-contain"
+
+
   />
   {/*
  <div>

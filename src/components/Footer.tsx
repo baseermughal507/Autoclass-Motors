@@ -15,7 +15,7 @@ const Footer = () => {
            <div>
             <div className="flex items-center space-x-4 mb-4">
               <img 
-                src="/logo.png"   
+                src="/AMlogo.png"   
                 alt="Autoclass Motors Logo"
                 className="h-14 w-auto rounded-lg shadow-[0_0_12px_rgba(255,0,0,0.3)]"
               />
