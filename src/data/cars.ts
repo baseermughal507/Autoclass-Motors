@@ -26,16 +26,16 @@ export const cars: Car[] = [
   {
     id: '1',
     title: 'Toyota Fortuner 2020',
-    main_image: '/cars/fortuner/1.jpg',
+    main_image: '/cars/fortuner/1.webp',
     images: [
-    "/cars/fortuner/2.jpg",
-    "/cars/fortuner/3.jpg",
-    "/cars/fortuner/4.jpg",
-    '/cars/fortuner/5.jpg',
-    '/cars/fortuner/6.jpg',
-    '/cars/fortuner/7.jpg',
-    '/cars/fortuner/8.jpg',
-    '/cars/fortuner/9.jpg'
+    "/cars/fortuner/2.webp",
+    "/cars/fortuner/3.webp",
+    "/cars/fortuner/4.webp",
+    '/cars/fortuner/5.webp',
+    '/cars/fortuner/6.webp',
+    '/cars/fortuner/7.webp',
+    '/cars/fortuner/8.webp',
+    '/cars/fortuner/9.webp'
 
   ],
     price: 11000000,
@@ -56,15 +56,15 @@ export const cars: Car[] = [
   {
     id: '2',
     title: 'Toyota Corolla 2014',
-    main_image: '/cars/corolla14/1.jpg',
+    main_image: '/cars/corolla14/1.webp',
     images: [
-    "/cars/corolla14/2.jpg",
-    "/cars/corolla14/3.jpg",
-    "/cars/corolla14/4.jpg",
-    '/cars/corolla14/5.jpg',
-    '/cars/corolla14/6.jpg',
-    '/cars/corolla14/7.jpg',
-    '/cars/corolla14/8.jpg'
+    "/cars/corolla14/2.webp",
+    "/cars/corolla14/3.webp",
+    "/cars/corolla14/4.webp",
+    '/cars/corolla14/5.webp',
+    '/cars/corolla14/6.webp',
+    '/cars/corolla14/7.webp',
+    '/cars/corolla14/8.webp'
 
   ],
     price: 3200000,
@@ -85,20 +85,20 @@ export const cars: Car[] = [
   {
     id: '3',
     title: 'Toyota Mark X Premium 2010',
-    main_image: '/cars/MarkX_premium/1.jpg',
+    main_image: '/cars/MarkX_premium/1.webp',
     images: [
-    "/cars/MarkX_premium/2.jpg",
-    "/cars/MarkX_premium/3.jpg",
-    "/cars/MarkX_premium/4.jpg",
-    '/cars/MarkX_premium/5.jpg',
-    '/cars/MarkX_premium/6.jpg',
-    '/cars/MarkX_premium/7.jpg',
-    '/cars/MarkX_premium/8.jpg',
-    '/cars/MarkX_premium/9.jpg',
-    '/cars/MarkX_premium/10.jpg',
-    '/cars/MarkX_premium/11.jpg',
-    '/cars/MarkX_premium/12.jpg',
-    '/cars/MarkX_premium/13.jpg'
+    "/cars/MarkX_premium/2.webp",
+    "/cars/MarkX_premium/3.webp",
+    "/cars/MarkX_premium/4.webp",
+    '/cars/MarkX_premium/5.webp',
+    '/cars/MarkX_premium/6.webp',
+    '/cars/MarkX_premium/7.webp',
+    '/cars/MarkX_premium/8.webp',
+    '/cars/MarkX_premium/9.webp',
+    '/cars/MarkX_premium/10.webp',
+    '/cars/MarkX_premium/11.webp',
+    '/cars/MarkX_premium/12.webp',
+    '/cars/MarkX_premium/13.webp'
 
 
   ],
@@ -119,17 +119,17 @@ export const cars: Car[] = [
   {
     id: '4',
     title: 'Toyota Corolla GLI 2019',
-    main_image: '/cars/corolla19/1.jpg',
+    main_image: '/cars/corolla19/1.webp',
     images: [
-    "/cars/corolla19/2.jpg",
-    "/cars/corolla19/3.jpg",
-    "/cars/corolla19/4.jpg",
-    '/cars/corolla19/5.jpg',
-    '/cars/corolla19/6.jpg',
-    '/cars/corolla19/7.jpg',
-    '/cars/corolla19/8.jpg',
-    '/cars/corolla19/9.jpg',
-    '/cars/corolla19/10.jpg'
+    "/cars/corolla19/2.webp",
+    "/cars/corolla19/3.webp",
+    "/cars/corolla19/4.webp",
+    '/cars/corolla19/5.webp',
+    '/cars/corolla19/6.webp',
+    '/cars/corolla19/7.webp',
+    '/cars/corolla19/8.webp',
+    '/cars/corolla19/9.webp',
+    '/cars/corolla19/10.webp'
 
   ],
     price: 4000000,
@@ -150,13 +150,13 @@ export const cars: Car[] = [
   {
     id: '5',
     title: 'Toyota Hilux Vigo Champ 2014',
-    main_image: '/cars/hilux14/1.jpg',
+    main_image: '/cars/hilux14/1.webp',
     images: [
-    "/cars/hilux14/2.jpg",
-    "/cars/hilux14/3.jpg",
-    "/cars/hilux14/4.jpg",
-    '/cars/hilux14/5.jpg',
-    '/cars/hilux14/6.jpg'
+    "/cars/hilux14/2.webp",
+    "/cars/hilux14/3.webp",
+    "/cars/hilux14/4.webp",
+    '/cars/hilux14/5.webp',
+    '/cars/hilux14/6.webp'
 
   ],
     price: 5800000,
@@ -176,16 +176,16 @@ export const cars: Car[] = [
   {
     id: '6',
     title: 'Toyota Revo V 2019',
-    main_image: '/cars/Revo_V_19/1.jpg',
+    main_image: '/cars/Revo_V_19/1.webp',
     images: [
-    "/cars/Revo_V_19/2.jpg",
-    "/cars/Revo_V_19/3.jpg",
-    "/cars/Revo_V_19/4.jpg",
-    '/cars/Revo_V_19/5.jpg',
-    '/cars/Revo_V_19/6.jpg',
-    '/cars/Revo_V_19/7.jpg',
-    '/cars/Revo_V_19/8.jpg',
-    '/cars/Revo_V_19/9.jpg'
+    "/cars/Revo_V_19/2.webp",
+    "/cars/Revo_V_19/3.webp",
+    "/cars/Revo_V_19/4.webp",
+    '/cars/Revo_V_19/5.webp',
+    '/cars/Revo_V_19/6.webp',
+    '/cars/Revo_V_19/7.webp',
+    '/cars/Revo_V_19/8.webp',
+    '/cars/Revo_V_19/9.webp'
 
   ],
     price: 9200000,
@@ -205,20 +205,20 @@ export const cars: Car[] = [
   {
     id: '7',
     title: 'Honda Civic 2018 UG ',
-    main_image: '/cars/civic18_AJ76/1.jpg',
+    main_image: '/cars/civic18_AJ76/1.webp',
     images: [
-    "/cars/civic18_AJ76/2.jpg",
-    "/cars/civic18_AJ76/3.jpg",
-    "/cars/civic18_AJ76/4.jpg",
-    '/cars/civic18_AJ76/5.jpg',
-    '/cars/civic18_AJ76/6.jpg',
-    '/cars/civic18_AJ76/7.jpg',
-    '/cars/civic18_AJ76/8.jpg',
-    '/cars/civic18_AJ76/9.jpg',
-    '/cars/civic18_AJ76/10.jpg',
-    '/cars/civic18_AJ76/11.jpg',
-    '/cars/civic18_AJ76/12.jpg',
-    '/cars/civic18_AJ76/13.jpg',
+    "/cars/civic18_AJ76/2.webp",
+    "/cars/civic18_AJ76/3.webp",
+    "/cars/civic18_AJ76/4.webp",
+    '/cars/civic18_AJ76/5.webp',
+    '/cars/civic18_AJ76/6.webp',
+    '/cars/civic18_AJ76/7.webp',
+    '/cars/civic18_AJ76/8.webp',
+    '/cars/civic18_AJ76/9.webp',
+    '/cars/civic18_AJ76/10.webp',
+    '/cars/civic18_AJ76/11.webp',
+    '/cars/civic18_AJ76/12.webp',
+    '/cars/civic18_AJ76/13.webp',
 
 
   ],
@@ -241,18 +241,18 @@ export const cars: Car[] = [
   {
     id: '8',
     title: 'Toyota Land Cruiser Grand 2005',
-    main_image: '/cars/cruiser_Grand/1.jpg',
+    main_image: '/cars/cruiser_Grand/1.webp',
     images: [
-    "/cars/cruiser_Grand/2.jpg",
-    "/cars/cruiser_Grand/3.jpg",
-    "/cars/cruiser_Grand/4.jpg",
-    '/cars/cruiser_Grand/5.jpg',
-    '/cars/cruiser_Grand/6.jpg',
-    '/cars/cruiser_Grand/7.jpg',
-    '/cars/cruiser_Grand/8.jpg',
-    '/cars/cruiser_Grand/9.jpg',
-    '/cars/cruiser_Grand/10.jpg',
-    '/cars/cruiser_Grand/11.jpg'
+    "/cars/cruiser_Grand/2.webp",
+    "/cars/cruiser_Grand/3.webp",
+    "/cars/cruiser_Grand/4.webp",
+    '/cars/cruiser_Grand/5.webp',
+    '/cars/cruiser_Grand/6.webp',
+    '/cars/cruiser_Grand/7.webp',
+    '/cars/cruiser_Grand/8.webp',
+    '/cars/cruiser_Grand/9.webp',
+    '/cars/cruiser_Grand/10.webp',
+    '/cars/cruiser_Grand/11.webp'
 
   ],
     price: 9000000,
@@ -274,16 +274,16 @@ export const cars: Car[] = [
   {
     id: '9',
     title: 'Honda Vezel 2014',
-    main_image: '/cars/vezel14/1.jpg',
+    main_image: '/cars/vezel14/1.webp',
     images: [
-    "/cars/vezel14/2.jpg",
-    "/cars/vezel14/3.jpg",
-    "/cars/vezel14/4.jpg",
-    '/cars/vezel14/5.jpg',
-    '/cars/vezel14/6.jpg',
-    '/cars/vezel14/7.jpg',
-    '/cars/vezel14/8.jpg',
-    '/cars/vezel14/9.jpg'
+    "/cars/vezel14/2.webp",
+    "/cars/vezel14/3.webp",
+    "/cars/vezel14/4.webp",
+    '/cars/vezel14/5.webp',
+    '/cars/vezel14/6.webp',
+    '/cars/vezel14/7.webp',
+    '/cars/vezel14/8.webp',
+    '/cars/vezel14/9.webp'
 
   ],
     price: 4200000,
@@ -305,14 +305,14 @@ export const cars: Car[] = [
   {
     id: '10',
     title: 'Honda Civic 2023 Oriel',
-    main_image: '/cars/civic23/1.jpg',
+    main_image: '/cars/civic23/1.webp',
     images: [
-    "/cars/civic23/2.jpg",
-    "/cars/civic23/3.jpg",
-    "/cars/civic23/4.jpg",
-    '/cars/civic23/5.jpg',
-    '/cars/civic23/6.jpg',
-    '/cars/civic23/7.jpg'
+    "/cars/civic23/2.webp",
+    "/cars/civic23/3.webp",
+    "/cars/civic23/4.webp",
+    '/cars/civic23/5.webp',
+    '/cars/civic23/6.webp',
+    '/cars/civic23/7.webp'
 
   ],
     price: 7500000,
@@ -332,16 +332,16 @@ export const cars: Car[] = [
   {
     id: '11',
     title: 'Honda Civic 2016',
-    main_image: '/cars/civic16/1.jpg',
+    main_image: '/cars/civic16/1.webp',
      images: [
-    "/cars/civic16/2.jpg",
-    "/cars/civic16/3.jpg",
-    "/cars/civic16/4.jpg",
-    "/cars/civic16/5.jpg",
-    "/cars/civic16/6.jpg",
-    "/cars/civic16/7.jpg",
-    "/cars/civic16/8.jpg",
-    "/cars/civic16/9.jpg"
+    "/cars/civic16/2.webp",
+    "/cars/civic16/3.webp",
+    "/cars/civic16/4.webp",
+    "/cars/civic16/5.webp",
+    "/cars/civic16/6.webp",
+    "/cars/civic16/7.webp",
+    "/cars/civic16/8.webp",
+    "/cars/civic16/9.webp"
    
   ],
     price: 4200000,
@@ -362,12 +362,12 @@ export const cars: Car[] = [
   {
     id: '12',
     title: 'Toyota Vigo 2011',
-    main_image: '/cars/vigo11/1.jpg',
+    main_image: '/cars/vigo11/1.webp',
     images: [
-    "/cars/vigo11/2.jpg",
-    "/cars/vigo11/3.jpg",
-    "/cars/vigo11/4.jpg",
-    '/cars/vigo11/5.jpg'
+    "/cars/vigo11/2.webp",
+    "/cars/vigo11/3.webp",
+    "/cars/vigo11/4.webp",
+    '/cars/vigo11/5.webp'
 
   ],
     price: 4500000,
@@ -389,11 +389,11 @@ export const cars: Car[] = [
   {
     id: '13',
     title: 'Toyota Vigo 2007 Thailand Variant',
-    main_image: '/cars/vigo7_Thai/1.jpg',
+    main_image: '/cars/vigo7_Thai/1.webp',
     images: [
-    "/cars/vigo7_Thai/2.jpg",
-    "/cars/vigo7_Thai/3.jpg",
-    "/cars/vigo7_Thai/4.jpg"
+    "/cars/vigo7_Thai/2.webp",
+    "/cars/vigo7_Thai/3.webp",
+    "/cars/vigo7_Thai/4.webp"
 
 
   ],
@@ -416,12 +416,12 @@ export const cars: Car[] = [
   {
     id: '14',
     title: 'Toyota Hilux vigo 2010 PK Variant ',
-    main_image: '/cars/vigo10_pk/1.jpg',
+    main_image: '/cars/vigo10_pk/1.webp',
     images: [
-    "/cars/vigo10_pk/2.jpg",
-    "/cars/vigo10_pk/3.jpg",
-    "/cars/vigo10_pk/4.jpg",
-    '/cars/vigo10_pk/5.jpg'
+    "/cars/vigo10_pk/2.webp",
+    "/cars/vigo10_pk/3.webp",
+    "/cars/vigo10_pk/4.webp",
+    '/cars/vigo10_pk/5.webp'
 
 
   ],
@@ -444,15 +444,15 @@ export const cars: Car[] = [
   {
     id: '15',
     title: 'Toyota Passo 2010 ',
-    main_image: '/cars/passo10/1.jpg',
+    main_image: '/cars/passo10/1.webp',
     images: [
-    "/cars/passo10/2.jpg",
-    "/cars/passo10/3.jpg",
-    "/cars/passo10/4.jpg",
-    '/cars/passo10/5.jpg',
-    '/cars/passo10/6.jpg',
-    '/cars/passo10/7.jpg',
-    '/cars/passo10/8.jpg'
+    "/cars/passo10/2.webp",
+    "/cars/passo10/3.webp",
+    "/cars/passo10/4.webp",
+    '/cars/passo10/5.webp',
+    '/cars/passo10/6.webp',
+    '/cars/passo10/7.webp',
+    '/cars/passo10/8.webp'
 
 
   ],
@@ -475,15 +475,15 @@ export const cars: Car[] = [
   {
     id: '16',
     title: 'Honda Civic 2021 Oriel UG ',
-    main_image: '/cars/civic21/1.jpg',
+    main_image: '/cars/civic21/1.webp',
     images: [
-    "/cars/civic21/2.jpg",
-    "/cars/civic21/3.jpg",
-    "/cars/civic21/4.jpg",
-    '/cars/civic21/5.jpg',
-    '/cars/civic21/6.jpg',
-    '/cars/civic21/7.jpg',
-    '/cars/civic21/8.jpg'
+    "/cars/civic21/2.webp",
+    "/cars/civic21/3.webp",
+    "/cars/civic21/4.webp",
+    '/cars/civic21/5.webp',
+    '/cars/civic21/6.webp',
+    '/cars/civic21/7.webp',
+    '/cars/civic21/8.webp'
 
 
   ],
@@ -506,16 +506,16 @@ export const cars: Car[] = [
   {
     id: '17',
     title: 'Toyota Tundra 2010 ',
-    main_image: '/cars/tundra10/1.jpg',
+    main_image: '/cars/tundra10/1.webp',
     images: [
-    "/cars/tundra10/2.jpg",
-    "/cars/tundra10/3.jpg",
-    "/cars/tundra10/4.jpg",
-    '/cars/tundra10/5.jpg',
-    '/cars/tundra10/6.jpg',
-    '/cars/tundra10/7.jpg',
-    '/cars/tundra10/8.jpg',
-    '/cars/tundra10/9.jpg'
+    "/cars/tundra10/2.webp",
+    "/cars/tundra10/3.webp",
+    "/cars/tundra10/4.webp",
+    '/cars/tundra10/5.webp',
+    '/cars/tundra10/6.webp',
+    '/cars/tundra10/7.webp',
+    '/cars/tundra10/8.webp',
+    '/cars/tundra10/9.webp'
 
   ],
     price: 9000000,
@@ -537,23 +537,23 @@ export const cars: Car[] = [
   {
     id: '18',
     title: 'Honda Civic 2017 ',
-    main_image: '/cars/civic17_hardtop/1.jpg',
+    main_image: '/cars/civic17_hardtop/1.webp',
     images: [
-    "/cars/civic17_hardtop/2.jpg",
-    "/cars/civic17_hardtop/3.jpg",
-    "/cars/civic17_hardtop/4.jpg",
-    '/cars/civic17_hardtop/5.jpg',
-    '/cars/civic17_hardtop/6.jpg',
-    '/cars/civic17_hardtop/7.jpg',
-    '/cars/civic17_hardtop/8.jpg',
-    '/cars/civic17_hardtop/9.jpg',
-    '/cars/civic17_hardtop/10.jpg',
-    '/cars/civic17_hardtop/11.jpg',
-    '/cars/civic17_hardtop/12.jpg',
-    '/cars/civic17_hardtop/13.jpg',
-    '/cars/civic17_hardtop/14.jpg',
-    '/cars/civic17_hardtop/15.jpg',
-    '/cars/civic17_hardtop/16.jpg'
+    "/cars/civic17_hardtop/2.webp",
+    "/cars/civic17_hardtop/3.webp",
+    "/cars/civic17_hardtop/4.webp",
+    '/cars/civic17_hardtop/5.webp',
+    '/cars/civic17_hardtop/6.webp',
+    '/cars/civic17_hardtop/7.webp',
+    '/cars/civic17_hardtop/8.webp',
+    '/cars/civic17_hardtop/9.webp',
+    '/cars/civic17_hardtop/10.webp',
+    '/cars/civic17_hardtop/11.webp',
+    '/cars/civic17_hardtop/12.webp',
+    '/cars/civic17_hardtop/13.webp',
+    '/cars/civic17_hardtop/14.webp',
+    '/cars/civic17_hardtop/15.webp',
+    '/cars/civic17_hardtop/16.webp'
 
   ],
     price: 4400000,
@@ -575,14 +575,14 @@ export const cars: Car[] = [
   {
     id: '19',
     title: 'Honda Civic 2018 Oriel  ',
-    main_image: '/cars/civic18/1.jpg',
+    main_image: '/cars/civic18/1.webp',
     images: [
-    "/cars/civic18/2.jpg",
-    "/cars/civic18/3.jpg",
-    "/cars/civic18/4.jpg",
-    '/cars/civic18/5.jpg',
-    '/cars/civic18/6.jpg',
-    '/cars/civic18/7.jpg'
+    "/cars/civic18/2.webp",
+    "/cars/civic18/3.webp",
+    "/cars/civic18/4.webp",
+    '/cars/civic18/5.webp',
+    '/cars/civic18/6.webp',
+    '/cars/civic18/7.webp'
   ],
     price: 5000000,
     description: 'Honda Civic 2018 Oriel ',
@@ -603,11 +603,11 @@ export const cars: Car[] = [
   {
     id: '20',
     title: 'Toyota Revo V 2022  ',
-    main_image: '/cars/revo22_V/1.jpg',
+    main_image: '/cars/revo22_V/1.webp',
     images: [
-    "/cars/revo22_V/2.jpg",
-    "/cars/revo22_V/3.jpg",
-    "/cars/revo22_V/4.jpg"
+    "/cars/revo22_V/2.webp",
+    "/cars/revo22_V/3.webp",
+    "/cars/revo22_V/4.webp"
 
   ],
     price: 11700000,
@@ -629,16 +629,16 @@ export const cars: Car[] = [
    {
     id: '21',
     title: 'Suzuki Alto VXR 2024',
-    main_image: '/cars/alto24/1.jpg',
+    main_image: '/cars/alto24/1.webp',
      images: [
-    "/cars/alto24/2.jpg",
-    "/cars/alto24/3.jpg",
-    "/cars/alto24/4.jpg",
-    "/cars/alto24/5.jpg",
-    "/cars/alto24/6.jpg",
-    "/cars/alto24/7.jpg",
-    "/cars/alto24/8.jpg",
-    "/cars/alto24/9.jpg"
+    "/cars/alto24/2.webp",
+    "/cars/alto24/3.webp",
+    "/cars/alto24/4.webp",
+    "/cars/alto24/5.webp",
+    "/cars/alto24/6.webp",
+    "/cars/alto24/7.webp",
+    "/cars/alto24/8.webp",
+    "/cars/alto24/9.webp"
    
   ],
     price: 2600000,
@@ -659,17 +659,17 @@ export const cars: Car[] = [
    {
     id: '22',
     title: 'MG HS 2021 Model',
-    main_image: '/cars/mg21/1.jpg',
+    main_image: '/cars/mg21/1.webp',
      images: [
-    "/cars/mg21/2.jpg",
-    "/cars/mg21/3.jpg",
-    "/cars/mg21/4.jpg",
-    "/cars/mg21/5.jpg",
-    "/cars/mg21/6.jpg",
-    "/cars/mg21/7.jpg",
-    "/cars/mg21/8.jpg",
-    "/cars/mg21/9.jpg",
-    "/cars/mg21/9.jpg"
+    "/cars/mg21/2.webp",
+    "/cars/mg21/3.webp",
+    "/cars/mg21/4.webp",
+    "/cars/mg21/5.webp",
+    "/cars/mg21/6.webp",
+    "/cars/mg21/7.webp",
+    "/cars/mg21/8.webp",
+    "/cars/mg21/9.webp",
+    "/cars/mg21/9.webp"
   ],
     price: 5800000,
     description: 'MG HS 2021 ',
@@ -689,13 +689,13 @@ export const cars: Car[] = [
    {
     id: '23',
     title: 'Toyota Revo 2022 Model',
-    main_image: '/cars/revo22/1.jpg',
+    main_image: '/cars/revo22/1.webp',
      images: [
-    "/cars/revo22/2.jpg",
-    "/cars/revo22/3.jpg",
-    "/cars/revo22/4.jpg",
-    "/cars/revo22/5.jpg",
-    "/cars/revo22/6.jpg"
+    "/cars/revo22/2.webp",
+    "/cars/revo22/3.webp",
+    "/cars/revo22/4.webp",
+    "/cars/revo22/5.webp",
+    "/cars/revo22/6.webp"
   ],
     price: 11500000,
     description: 'Toyota Revo 2022',
@@ -715,15 +715,15 @@ export const cars: Car[] = [
    {
     id: '24',
     title: 'Honda Civic UG 2018',
-    main_image: '/cars/civic18_UG/1.jpg',
+    main_image: '/cars/civic18_UG/1.webp',
      images: [
-    "/cars/civic18_UG/2.jpg",
-    "/cars/civic18_UG/3.jpg",
-    "/cars/civic18_UG/4.jpg",
-    "/cars/civic18_UG/5.jpg",
-    "/cars/civic18_UG/6.jpg",
-    "/cars/civic18_UG/7.jpg",
-    "/cars/civic18_UG/8.jpg"
+    "/cars/civic18_UG/2.webp",
+    "/cars/civic18_UG/3.webp",
+    "/cars/civic18_UG/4.webp",
+    "/cars/civic18_UG/5.webp",
+    "/cars/civic18_UG/6.webp",
+    "/cars/civic18_UG/7.webp",
+    "/cars/civic18_UG/8.webp"
    
   ],
     price: 5200000,
@@ -744,16 +744,16 @@ export const cars: Car[] = [
    {
     id: '25',
     title: 'Honda Accord CL9 2003 ',
-    main_image: '/cars/accord2003/1.jpg',
+    main_image: '/cars/accord2003/1.webp',
      images: [
-    "/cars/accord2003/2.jpg",
-    "/cars/accord2003/3.jpg",
-    "/cars/accord2003/4.jpg",
-    "/cars/accord2003/5.jpg",
-    "/cars/accord2003/6.jpg",
-    "/cars/accord2003/7.jpg",
-    "/cars/accord2003/8.jpg",
-    "/cars/accord2003/9.jpg"
+    "/cars/accord2003/2.webp",
+    "/cars/accord2003/3.webp",
+    "/cars/accord2003/4.webp",
+    "/cars/accord2003/5.webp",
+    "/cars/accord2003/6.webp",
+    "/cars/accord2003/7.webp",
+    "/cars/accord2003/8.webp",
+    "/cars/accord2003/9.webp"
    
   ],
     price: 2500000,
@@ -774,11 +774,11 @@ export const cars: Car[] = [
    {
     id: '26',
     title: 'Toyota Revo V 2.8  2018',
-    main_image: '/cars/revo_trd_18/1.jpg',
+    main_image: '/cars/revo_trd_18/1.webp',
      images: [
-    "/cars/revo_trd_18/2.jpg",
-    "/cars/revo_trd_18/3.jpg",
-    "/cars/revo_trd_18/4.jpg"
+    "/cars/revo_trd_18/2.webp",
+    "/cars/revo_trd_18/3.webp",
+    "/cars/revo_trd_18/4.webp"
    
   ],
     price: 9000000,
@@ -799,16 +799,16 @@ export const cars: Car[] = [
    {
     id: '27',
     title: 'Honda Vezel 2014',
-    main_image: '/cars/vezel_14-19-21/1.jpg',
+    main_image: '/cars/vezel_14-19-21/1.webp',
      images: [
-    "/cars/vezel_14-19-21/2.jpg",
-    "/cars/vezel_14-19-21/3.jpg",
-    "/cars/vezel_14-19-21/4.jpg",
-    "/cars/vezel_14-19-21/5.jpg",
-    "/cars/vezel_14-19-21/6.jpg",
-    "/cars/vezel_14-19-21/7.jpg",
-    "/cars/vezel_14-19-21/8.jpg",
-    "/cars/vezel_14-19-21/9.jpg"
+    "/cars/vezel_14-19-21/2.webp",
+    "/cars/vezel_14-19-21/3.webp",
+    "/cars/vezel_14-19-21/4.webp",
+    "/cars/vezel_14-19-21/5.webp",
+    "/cars/vezel_14-19-21/6.webp",
+    "/cars/vezel_14-19-21/7.webp",
+    "/cars/vezel_14-19-21/8.webp",
+    "/cars/vezel_14-19-21/9.webp"
    
   ],
     price: 4400000,
@@ -829,14 +829,14 @@ export const cars: Car[] = [
    {
     id: '28',
     title: 'Honda Civic UG Full Option 2020',
-    main_image: '/cars/civic20/1.jpg',
+    main_image: '/cars/civic20/1.webp',
      images: [
-    "/cars/civic20/2.jpg",
-    "/cars/civic20/3.jpg",
-    "/cars/civic20/4.jpg",
-    "/cars/civic20/5.jpg",
-    "/cars/civic20/6.jpg",
-    "/cars/civic20/7.jpg"
+    "/cars/civic20/2.webp",
+    "/cars/civic20/3.webp",
+    "/cars/civic20/4.webp",
+    "/cars/civic20/5.webp",
+    "/cars/civic20/6.webp",
+    "/cars/civic20/7.webp"
    
   ],
     price: 6000000,
@@ -857,14 +857,14 @@ export const cars: Car[] = [
    {
     id: '29',
     title: 'Toyota Aqua S Package 2015',
-    main_image: '/cars/aqua15/1.jpg',
+    main_image: '/cars/aqua15/1.webp',
      images: [
-    "/cars/aqua15/2.jpg",
-    "/cars/aqua15/3.jpg",
-    "/cars/aqua15/4.jpg",
-    "/cars/aqua15/5.jpg",
-    "/cars/aqua15/6.jpg",
-    "/cars/aqua15/7.jpg"
+    "/cars/aqua15/2.webp",
+    "/cars/aqua15/3.webp",
+    "/cars/aqua15/4.webp",
+    "/cars/aqua15/5.webp",
+    "/cars/aqua15/6.webp",
+    "/cars/aqua15/7.webp"
    
   ],
     price: 3800000,
@@ -885,15 +885,15 @@ export const cars: Car[] = [
    {
     id: '30',
     title: 'Honda Civic Oriel 1.5 Turbo 2020',
-    main_image: '/cars/civic_oriel_turbo/1.jpg',
+    main_image: '/cars/civic_oriel_turbo/1.webp',
      images: [
-    "/cars/civic_oriel_turbo/2.jpg",
-    "/cars/civic_oriel_turbo/3.jpg",
-    "/cars/civic_oriel_turbo/4.jpg",
-    "/cars/civic_oriel_turbo/5.jpg",
-    "/cars/civic_oriel_turbo/6.jpg",
-    "/cars/civic_oriel_turbo/7.jpg",
-    "/cars/civic_oriel_turbo/8.jpg"
+    "/cars/civic_oriel_turbo/2.webp",
+    "/cars/civic_oriel_turbo/3.webp",
+    "/cars/civic_oriel_turbo/4.webp",
+    "/cars/civic_oriel_turbo/5.webp",
+    "/cars/civic_oriel_turbo/6.webp",
+    "/cars/civic_oriel_turbo/7.webp",
+    "/cars/civic_oriel_turbo/8.webp"
   ],
     price: 6300000,
     description: 'Honda Civic Oriel 1.5 Turbo 2020',
@@ -913,15 +913,15 @@ export const cars: Car[] = [
   {
     id: '31',
     title: 'Honda Civic 2014 Rebirth UG',
-    main_image: '/cars/rebirth14/1.jpg',
+    main_image: '/cars/rebirth14/1.webp',
      images: [
-    "/cars/rebirth14/2.jpg",
-    "/cars/rebirth14/3.jpg",
-    "/cars/rebirth14/4.jpg",
-    "/cars/rebirth14/5.jpg",
-    "/cars/rebirth14/6.jpg",
-    "/cars/rebirth14/7.jpg",
-    "/cars/rebirth14/8.jpg"
+    "/cars/rebirth14/2.webp",
+    "/cars/rebirth14/3.webp",
+    "/cars/rebirth14/4.webp",
+    "/cars/rebirth14/5.webp",
+    "/cars/rebirth14/6.webp",
+    "/cars/rebirth14/7.webp",
+    "/cars/rebirth14/8.webp"
   ],
     price: 3400000,
     description: 'Honda Civic 2014 Rebirth UG',
@@ -941,19 +941,19 @@ export const cars: Car[] = [
    {
     id: '32',
     title: 'MG HS 2021',
-    main_image: '/cars/MGHS_2021/1.jpg',
+    main_image: '/cars/MGHS_2021/1.webp',
      images: [
-    "/cars/MGHS_2021/2.jpg",
-    "/cars/MGHS_2021/3.jpg",
-    "/cars/MGHS_2021/4.jpg",
-    "/cars/MGHS_2021/5.jpg",
-    "/cars/MGHS_2021/6.jpg",
-    "/cars/MGHS_2021/7.jpg",
-    "/cars/MGHS_2021/8.jpg",
-    "/cars/MGHS_2021/9.jpg",
-    "/cars/MGHS_2021/10.jpg",
-    "/cars/MGHS_2021/11.jpg",
-    "/cars/MGHS_2021/12.jpg"
+    "/cars/MGHS_2021/2.webp",
+    "/cars/MGHS_2021/3.webp",
+    "/cars/MGHS_2021/4.webp",
+    "/cars/MGHS_2021/5.webp",
+    "/cars/MGHS_2021/6.webp",
+    "/cars/MGHS_2021/7.webp",
+    "/cars/MGHS_2021/8.webp",
+    "/cars/MGHS_2021/9.webp",
+    "/cars/MGHS_2021/10.webp",
+    "/cars/MGHS_2021/11.webp",
+    "/cars/MGHS_2021/12.webp"
   ],
     price: 6000000,
     description: 'MG HS 2021',
@@ -972,20 +972,20 @@ export const cars: Car[] = [
   }, {
     id: '33',
     title: 'Suzuki Alto VXR 2024',
-    main_image: '/cars/alto_24_VXR/1.jpg',
+    main_image: '/cars/alto_24_VXR/1.webp',
      images: [
-    "/cars/alto_24_VXR/2.jpg",
-    "/cars/alto_24_VXR/3.jpg",
-    "/cars/alto_24_VXR/4.jpg",
-    "/cars/alto_24_VXR/5.jpg",
-    "/cars/alto_24_VXR/6.jpg",
-    "/cars/alto_24_VXR/7.jpg",
-    "/cars/alto_24_VXR/8.jpg",
-    "/cars/alto_24_VXR/9.jpg",
-    "/cars/alto_24_VXR/10.jpg",
-    "/cars/alto_24_VXR/11.jpg",
-    "/cars/alto_24_VXR/12.jpg",
-    "/cars/alto_24_VXR/13.jpg"
+    "/cars/alto_24_VXR/2.webp",
+    "/cars/alto_24_VXR/3.webp",
+    "/cars/alto_24_VXR/4.webp",
+    "/cars/alto_24_VXR/5.webp",
+    "/cars/alto_24_VXR/6.webp",
+    "/cars/alto_24_VXR/7.webp",
+    "/cars/alto_24_VXR/8.webp",
+    "/cars/alto_24_VXR/9.webp",
+    "/cars/alto_24_VXR/10.webp",
+    "/cars/alto_24_VXR/11.webp",
+    "/cars/alto_24_VXR/12.webp",
+    "/cars/alto_24_VXR/13.webp"
   ],
     price: 2600000,
     description: 'Suzuki Alto VXR 2024',
@@ -1004,16 +1004,16 @@ export const cars: Car[] = [
   }, {
     id: '34',
     title: 'Honda Civic 2014 Rebirth UG',
-    main_image: '/cars/rebirth14_UG/1.jpg',
+    main_image: '/cars/rebirth14_UG/1.webp',
      images: [
-    "/cars/rebirth14_UG/2.jpg",
-    "/cars/rebirth14_UG/3.jpg",
-    "/cars/rebirth14_UG/4.jpg",
-    "/cars/rebirth14_UG/5.jpg",
-    "/cars/rebirth14_UG/6.jpg",
-    "/cars/rebirth14_UG/7.jpg",
-    "/cars/rebirth14_UG/8.jpg",
-    "/cars/rebirth14_UG/9.jpg"
+    "/cars/rebirth14_UG/2.webp",
+    "/cars/rebirth14_UG/3.webp",
+    "/cars/rebirth14_UG/4.webp",
+    "/cars/rebirth14_UG/5.webp",
+    "/cars/rebirth14_UG/6.webp",
+    "/cars/rebirth14_UG/7.webp",
+    "/cars/rebirth14_UG/8.webp",
+    "/cars/rebirth14_UG/9.webp"
   ],
     price: 3200000,
     description: 'Honda Civic 2014 Rebirth UG',
@@ -1032,14 +1032,14 @@ export const cars: Car[] = [
   }, {
     id: '35',
     title: 'Daihatsu Mira 2015',
-    main_image: '/cars/mira15/1.jpg',
+    main_image: '/cars/mira15/1.webp',
      images: [
-    "/cars/mira15/2.jpg",
-    "/cars/mira15/3.jpg",
-    "/cars/mira15/4.jpg",
-    "/cars/mira15/5.jpg",
-    "/cars/mira15/6.jpg",
-    "/cars/mira15/7.jpg"
+    "/cars/mira15/2.webp",
+    "/cars/mira15/3.webp",
+    "/cars/mira15/4.webp",
+    "/cars/mira15/5.webp",
+    "/cars/mira15/6.webp",
+    "/cars/mira15/7.webp"
   ],
     price: 2500000,
     description: 'Daihatsu Mira 2015',
@@ -1058,14 +1058,14 @@ export const cars: Car[] = [
   }, {
     id: '36',
     title: 'Toyota Vitz 2014',
-    main_image: '/cars/vitz14/1.jpg',
+    main_image: '/cars/vitz14/1.webp',
      images: [
-    "/cars/vitz14/2.jpg",
-    "/cars/vitz14/3.jpg",
-    "/cars/vitz14/4.jpg",
-    "/cars/vitz14/5.jpg",
-    "/cars/vitz14/6.jpg",
-    "/cars/vitz14/7.jpg"
+    "/cars/vitz14/2.webp",
+    "/cars/vitz14/3.webp",
+    "/cars/vitz14/4.webp",
+    "/cars/vitz14/5.webp",
+    "/cars/vitz14/6.webp",
+    "/cars/vitz14/7.webp"
   ],
     price: 2950000,
     description: 'Toyota Vitz 2014',
@@ -1084,19 +1084,19 @@ export const cars: Car[] = [
   }, {
     id: '37',
     title: 'Toyota Corolla Grande CVT-i 2017 ',
-    main_image: '/cars/grande17/1.jpg',
+    main_image: '/cars/grande17/1.webp',
      images: [
-    "/cars/grande17/2.jpg",
-    "/cars/grande17/3.jpg",
-    "/cars/grande17/4.jpg",
-    "/cars/grande17/5.jpg",
-    "/cars/grande17/6.jpg",
-    "/cars/grande17/7.jpg",
-    "/cars/grande17/8.jpg",
-    "/cars/grande17/9.jpg",
-    "/cars/grande17/10.jpg",
-    "/cars/grande17/11.jpg",
-    "/cars/grande17/12.jpg"
+    "/cars/grande17/2.webp",
+    "/cars/grande17/3.webp",
+    "/cars/grande17/4.webp",
+    "/cars/grande17/5.webp",
+    "/cars/grande17/6.webp",
+    "/cars/grande17/7.webp",
+    "/cars/grande17/8.webp",
+    "/cars/grande17/9.webp",
+    "/cars/grande17/10.webp",
+    "/cars/grande17/11.webp",
+    "/cars/grande17/12.webp"
   ],
     price: 5500000,
     description: 'Toyota Corolla Grande CVT-i 2017',
@@ -1115,15 +1115,15 @@ export const cars: Car[] = [
   }, {
     id: '38',
     title: 'Toyota Land Cruiser Prado TXL 2009 ',
-    main_image: '/cars/prado_txl_9/1.jpg',
+    main_image: '/cars/prado_txl_9/1.webp',
      images: [
-    "/cars/prado_txl_9/2.jpg",
-    "/cars/prado_txl_9/3.jpg",
-    "/cars/prado_txl_9/4.jpg",
-    "/cars/prado_txl_9/5.jpg",
-    "/cars/prado_txl_9/6.jpg",
-    "/cars/prado_txl_9/7.jpg",
-    "/cars/prado_txl_9/8.jpg"
+    "/cars/prado_txl_9/2.webp",
+    "/cars/prado_txl_9/3.webp",
+    "/cars/prado_txl_9/4.webp",
+    "/cars/prado_txl_9/5.webp",
+    "/cars/prado_txl_9/6.webp",
+    "/cars/prado_txl_9/7.webp",
+    "/cars/prado_txl_9/8.webp"
   ],
     price: 14500000,
     description: 'Toyota Land Cruiser Prado TXL 2009 ',
@@ -1142,18 +1142,18 @@ export const cars: Car[] = [
   }, {
     id: '39',
     title: 'Changan Oshan X7 Comfort 2024',
-    main_image: '/cars/oshanx7_24/1.jpg',
+    main_image: '/cars/oshanx7_24/1.webp',
      images: [
-    "/cars/oshanx7_24/2.jpg",
-    "/cars/oshanx7_24/3.jpg",
-    "/cars/oshanx7_24/4.jpg",
-    "/cars/oshanx7_24/5.jpg",
-    "/cars/oshanx7_24/6.jpg",
-    "/cars/oshanx7_24/7.jpg",
-    "/cars/oshanx7_24/8.jpg",
-    "/cars/oshanx7_24/9.jpg",
-    "/cars/oshanx7_24/10.jpg",
-    "/cars/oshanx7_24/11.jpg"
+    "/cars/oshanx7_24/2.webp",
+    "/cars/oshanx7_24/3.webp",
+    "/cars/oshanx7_24/4.webp",
+    "/cars/oshanx7_24/5.webp",
+    "/cars/oshanx7_24/6.webp",
+    "/cars/oshanx7_24/7.webp",
+    "/cars/oshanx7_24/8.webp",
+    "/cars/oshanx7_24/9.webp",
+    "/cars/oshanx7_24/10.webp",
+    "/cars/oshanx7_24/11.webp"
   ],
     price: 8500000,
     description: 'Changan Oshan X7 Comfort 2024 7 Seater',
@@ -1172,13 +1172,13 @@ export const cars: Car[] = [
   }, {
     id: '40',
     title: 'Honda Civic 2019 Oriel UG',
-    main_image: '/cars/civic19_oriel_snake/1.jpg',
+    main_image: '/cars/civic19_oriel_snake/1.webp',
      images: [
-    "/cars/civic19_oriel_snake/2.jpg",
-    "/cars/civic19_oriel_snake/3.jpg",
-    "/cars/civic19_oriel_snake/4.jpg",
-    "/cars/civic19_oriel_snake/5.jpg",
-    "/cars/civic19_oriel_snake/6.jpg"
+    "/cars/civic19_oriel_snake/2.webp",
+    "/cars/civic19_oriel_snake/3.webp",
+    "/cars/civic19_oriel_snake/4.webp",
+    "/cars/civic19_oriel_snake/5.webp",
+    "/cars/civic19_oriel_snake/6.webp"
   ],
     price: 5300000,
     description: 'Honda Civic 2019 Oriel UG',
@@ -1197,19 +1197,19 @@ export const cars: Car[] = [
   }, {
     id: '41',
     title: 'Toyota Land Cruiser Prado TZ 2005',
-    main_image: '/cars/prado_tz_2005/1.jpg',
+    main_image: '/cars/prado_tz_2005/1.webp',
      images: [
-    "/cars/prado_tz_2005/2.jpg",
-    "/cars/prado_tz_2005/3.jpg",
-    "/cars/prado_tz_2005/4.jpg",
-    "/cars/prado_tz_2005/5.jpg",
-    "/cars/prado_tz_2005/6.jpg",
-    "/cars/prado_tz_2005/7.jpg",
-    "/cars/prado_tz_2005/8.jpg",
-    "/cars/prado_tz_2005/9.jpg",
-    "/cars/prado_tz_2005/10.jpg",
-    "/cars/prado_tz_2005/11.jpg",
-    "/cars/prado_tz_2005/12.jpg",
+    "/cars/prado_tz_2005/2.webp",
+    "/cars/prado_tz_2005/3.webp",
+    "/cars/prado_tz_2005/4.webp",
+    "/cars/prado_tz_2005/5.webp",
+    "/cars/prado_tz_2005/6.webp",
+    "/cars/prado_tz_2005/7.webp",
+    "/cars/prado_tz_2005/8.webp",
+    "/cars/prado_tz_2005/9.webp",
+    "/cars/prado_tz_2005/10.webp",
+    "/cars/prado_tz_2005/11.webp",
+    "/cars/prado_tz_2005/12.webp",
   ],
     price: 8500000,
     description: 'Toyota Land Cruiser Prado TZ 2005',
@@ -1228,16 +1228,16 @@ export const cars: Car[] = [
   }, {
     id: '42',
     title: 'KIA Sportage 2020',
-    main_image: '/cars/sportage20/1.jpg',
+    main_image: '/cars/sportage20/1.webp',
      images: [
-    "/cars/sportage20/2.jpg",
-    "/cars/sportage20/3.jpg",
-    "/cars/sportage20/4.jpg",
-    "/cars/sportage20/5.jpg",
-    "/cars/sportage20/6.jpg",
-    "/cars/sportage20/7.jpg",
-    "/cars/sportage20/8.jpg",
-    "/cars/sportage20/9.jpg"
+    "/cars/sportage20/2.webp",
+    "/cars/sportage20/3.webp",
+    "/cars/sportage20/4.webp",
+    "/cars/sportage20/5.webp",
+    "/cars/sportage20/6.webp",
+    "/cars/sportage20/7.webp",
+    "/cars/sportage20/8.webp",
+    "/cars/sportage20/9.webp"
   ],
     price: 6300000,
     description: 'KIA Sportage 2020',
@@ -1256,15 +1256,15 @@ export const cars: Car[] = [
   }, {
     id: '43',
     title: 'Toyota land Cruiser Prado 2011 4.0L',
-    main_image: '/cars/prado11_4.0L/1.jpg',
+    main_image: '/cars/prado11_4.0L/1.webp',
      images: [
-    "/cars/prado11_4.0L/2.jpg",
-    "/cars/prado11_4.0L/3.jpg",
-    "/cars/prado11_4.0L/4.jpg",
-    "/cars/prado11_4.0L/5.jpg",
-    "/cars/prado11_4.0L/6.jpg",
-    "/cars/prado11_4.0L/7.jpg",
-    "/cars/prado11_4.0L/8.jpg"
+    "/cars/prado11_4.0L/2.webp",
+    "/cars/prado11_4.0L/3.webp",
+    "/cars/prado11_4.0L/4.webp",
+    "/cars/prado11_4.0L/5.webp",
+    "/cars/prado11_4.0L/6.webp",
+    "/cars/prado11_4.0L/7.webp",
+    "/cars/prado11_4.0L/8.webp"
   ],
     price: 16000000,
     description: 'Toyota land Cruiser Prado 2011 4.0L',
@@ -1283,15 +1283,15 @@ export const cars: Car[] = [
   }, {
     id: '44',
     title: 'Audi A3 2019 30TFSI',
-    main_image: '/cars/audiA3_19/1.jpg',
+    main_image: '/cars/audiA3_19/1.webp',
      images: [
-    "/cars/audiA3_19/2.jpg",
-    "/cars/audiA3_19/3.jpg",
-    "/cars/audiA3_19/4.jpg",
-    "/cars/audiA3_19/5.jpg",
-    "/cars/audiA3_19/6.jpg",
-    "/cars/audiA3_19/7.jpg",
-    "/cars/audiA3_19/8.jpg"
+    "/cars/audiA3_19/2.webp",
+    "/cars/audiA3_19/3.webp",
+    "/cars/audiA3_19/4.webp",
+    "/cars/audiA3_19/5.webp",
+    "/cars/audiA3_19/6.webp",
+    "/cars/audiA3_19/7.webp",
+    "/cars/audiA3_19/8.webp"
   ],
     price: 6800000,
     description: 'Audi A3 2019 30TFSI',
@@ -1310,17 +1310,17 @@ export const cars: Car[] = [
   }, {
     id: '45',
     title: 'Land Cruiser Prado 2010 TX 2.7cc',
-    main_image: '/cars/prado10_tx_2.7/1.jpg',
+    main_image: '/cars/prado10_tx_2.7/1.webp',
      images: [
-    "/cars/prado10_tx_2.7/2.jpg",
-    "/cars/prado10_tx_2.7/3.jpg",
-    "/cars/prado10_tx_2.7/4.jpg",
-    "/cars/prado10_tx_2.7/5.jpg",
-    "/cars/prado10_tx_2.7/6.jpg",
-    "/cars/prado10_tx_2.7/7.jpg",
-    "/cars/prado10_tx_2.7/8.jpg",
-    "/cars/prado10_tx_2.7/9.jpg",
-    "/cars/prado10_tx_2.7/10.jpg"
+    "/cars/prado10_tx_2.7/2.webp",
+    "/cars/prado10_tx_2.7/3.webp",
+    "/cars/prado10_tx_2.7/4.webp",
+    "/cars/prado10_tx_2.7/5.webp",
+    "/cars/prado10_tx_2.7/6.webp",
+    "/cars/prado10_tx_2.7/7.webp",
+    "/cars/prado10_tx_2.7/8.webp",
+    "/cars/prado10_tx_2.7/9.webp",
+    "/cars/prado10_tx_2.7/10.webp"
   ],
     price: 13000000,
     description: 'Land Cruiser Prado 2010 TX 2.7cc',
@@ -1339,17 +1339,17 @@ export const cars: Car[] = [
   }, {
     id: '46',
     title: 'Honda Civic Oriel 2021',
-    main_image: '/cars/civic_oriel_21/1.jpg',
+    main_image: '/cars/civic_oriel_21/1.webp',
      images: [
-    "/cars/civic_oriel_21/2.jpg",
-    "/cars/civic_oriel_21/3.jpg",
-    "/cars/civic_oriel_21/4.jpg",
-    "/cars/civic_oriel_21/5.jpg",
-    "/cars/civic_oriel_21/6.jpg",
-    "/cars/civic_oriel_21/7.jpg",
-    "/cars/civic_oriel_21/8.jpg",
-    "/cars/civic_oriel_21/9.jpg",
-    "/cars/civic_oriel_21/10.jpg",
+    "/cars/civic_oriel_21/2.webp",
+    "/cars/civic_oriel_21/3.webp",
+    "/cars/civic_oriel_21/4.webp",
+    "/cars/civic_oriel_21/5.webp",
+    "/cars/civic_oriel_21/6.webp",
+    "/cars/civic_oriel_21/7.webp",
+    "/cars/civic_oriel_21/8.webp",
+    "/cars/civic_oriel_21/9.webp",
+    "/cars/civic_oriel_21/10.webp",
   ],
     price: 6200000,
     description: 'Honda Civic Oriel 2021',
@@ -1368,20 +1368,20 @@ export const cars: Car[] = [
   }, {
     id: '47',
     title: 'Honda City 2017',
-    main_image: '/cars/city_2017/1.jpg',
+    main_image: '/cars/city_2017/1.webp',
      images: [
-    "/cars/city_2017/2.jpg",
-    "/cars/city_2017/3.jpg",
-    "/cars/city_2017/4.jpg",
-    "/cars/city_2017/5.jpg",
-    "/cars/city_2017/6.jpg",
-    "/cars/city_2017/7.jpg",
-    "/cars/city_2017/8.jpg",
-    "/cars/city_2017/9.jpg",
-    "/cars/city_2017/10.jpg",
-    "/cars/city_2017/11.jpg",
-    "/cars/city_2017/12.jpg",
-    "/cars/city_2017/13.jpg"
+    "/cars/city_2017/2.webp",
+    "/cars/city_2017/3.webp",
+    "/cars/city_2017/4.webp",
+    "/cars/city_2017/5.webp",
+    "/cars/city_2017/6.webp",
+    "/cars/city_2017/7.webp",
+    "/cars/city_2017/8.webp",
+    "/cars/city_2017/9.webp",
+    "/cars/city_2017/10.webp",
+    "/cars/city_2017/11.webp",
+    "/cars/city_2017/12.webp",
+    "/cars/city_2017/13.webp"
   ],
     price: 3550000,
     description: 'Honda City 2017',
@@ -1400,15 +1400,15 @@ export const cars: Car[] = [
   }, {
     id: '48',
     title: 'Honda Civic Oriel 1.5 Turbo 2020',
-    main_image: '/cars/civic_oriel_turbo/1.jpg',
+    main_image: '/cars/civic_oriel_turbo/1.webp',
      images: [
-    "/cars/civic_oriel_turbo/2.jpg",
-    "/cars/civic_oriel_turbo/3.jpg",
-    "/cars/civic_oriel_turbo/4.jpg",
-    "/cars/civic_oriel_turbo/5.jpg",
-    "/cars/civic_oriel_turbo/6.jpg",
-    "/cars/civic_oriel_turbo/7.jpg",
-    "/cars/civic_oriel_turbo/8.jpg"
+    "/cars/civic_oriel_turbo/2.webp",
+    "/cars/civic_oriel_turbo/3.webp",
+    "/cars/civic_oriel_turbo/4.webp",
+    "/cars/civic_oriel_turbo/5.webp",
+    "/cars/civic_oriel_turbo/6.webp",
+    "/cars/civic_oriel_turbo/7.webp",
+    "/cars/civic_oriel_turbo/8.webp"
   ],
     price: 6300000,
     description: 'Honda Civic Oriel 1.5 Turbo 2020',
@@ -1427,17 +1427,17 @@ export const cars: Car[] = [
   }, {
     id: '49',
     title: 'Honda Civic 2022 Oriel UG',
-    main_image: '/cars/civic_22_orielUG/1.jpg',
+    main_image: '/cars/civic_22_orielUG/1.webp',
      images: [
-    "/cars/civic_22_orielUG/2.jpg",
-    "/cars/civic_22_orielUG/3.jpg",
-    "/cars/civic_22_orielUG/4.jpg",
-    "/cars/civic_22_orielUG/5.jpg",
-    "/cars/civic_22_orielUG/6.jpg",
-    "/cars/civic_22_orielUG/7.jpg",
-    "/cars/civic_22_orielUG/8.jpg",
-    "/cars/civic_22_orielUG/9.jpg",
-    "/cars/civic_22_orielUG/10.jpg"
+    "/cars/civic_22_orielUG/2.webp",
+    "/cars/civic_22_orielUG/3.webp",
+    "/cars/civic_22_orielUG/4.webp",
+    "/cars/civic_22_orielUG/5.webp",
+    "/cars/civic_22_orielUG/6.webp",
+    "/cars/civic_22_orielUG/7.webp",
+    "/cars/civic_22_orielUG/8.webp",
+    "/cars/civic_22_orielUG/9.webp",
+    "/cars/civic_22_orielUG/10.webp"
   ],
     price: 6400000,
     description: 'Honda Civic 2022 Oriel UG',
@@ -1456,19 +1456,19 @@ export const cars: Car[] = [
   }, {
     id: '50',
     title: 'Haval H6 1.5 2021',
-    main_image: '/cars/haval_H6_21/1.jpg',
+    main_image: '/cars/haval_H6_21/1.webp',
      images: [
-    "/cars/haval_H6_21/2.jpg",
-    "/cars/haval_H6_21/3.jpg",
-    "/cars/haval_H6_21/4.jpg",
-    "/cars/haval_H6_21/5.jpg",
-    "/cars/haval_H6_21/6.jpg",
-    "/cars/haval_H6_21/7.jpg",
-    "/cars/haval_H6_21/8.jpg",
-    "/cars/haval_H6_21/9.jpg",
-    "/cars/haval_H6_21/10.jpg",
-    "/cars/haval_H6_21/11.jpg",
-    "/cars/haval_H6_21/12.jpg"
+    "/cars/haval_H6_21/2.webp",
+    "/cars/haval_H6_21/3.webp",
+    "/cars/haval_H6_21/4.webp",
+    "/cars/haval_H6_21/5.webp",
+    "/cars/haval_H6_21/6.webp",
+    "/cars/haval_H6_21/7.webp",
+    "/cars/haval_H6_21/8.webp",
+    "/cars/haval_H6_21/9.webp",
+    "/cars/haval_H6_21/10.webp",
+    "/cars/haval_H6_21/11.webp",
+    "/cars/haval_H6_21/12.webp"
   ],
     price: 8200000,
     description: 'Haval H6 1.5 2021',
@@ -1487,18 +1487,18 @@ export const cars: Car[] = [
   }, {
     id: '51',
     title: 'Honda Civic 1.5 RS Turbo 2022',
-    main_image: '/cars/civic1.5_turbo_2022/1.jpg',
+    main_image: '/cars/civic1.5_turbo_2022/1.webp',
      images: [
-    "/cars/civic1.5_turbo_2022/2.jpg",
-    "/cars/civic1.5_turbo_2022/3.jpg",
-    "/cars/civic1.5_turbo_2022/4.jpg",
-    "/cars/civic1.5_turbo_2022/5.jpg",
-    "/cars/civic1.5_turbo_2022/6.jpg",
-    "/cars/civic1.5_turbo_2022/7.jpg",
-    "/cars/civic1.5_turbo_2022/8.jpg",
-    "/cars/civic1.5_turbo_2022/9.jpg",
-    "/cars/civic1.5_turbo_2022/10.jpg",
-    "/cars/civic1.5_turbo_2022/11.jpg"
+    "/cars/civic1.5_turbo_2022/2.webp",
+    "/cars/civic1.5_turbo_2022/3.webp",
+    "/cars/civic1.5_turbo_2022/4.webp",
+    "/cars/civic1.5_turbo_2022/5.webp",
+    "/cars/civic1.5_turbo_2022/6.webp",
+    "/cars/civic1.5_turbo_2022/7.webp",
+    "/cars/civic1.5_turbo_2022/8.webp",
+    "/cars/civic1.5_turbo_2022/9.webp",
+    "/cars/civic1.5_turbo_2022/10.webp",
+    "/cars/civic1.5_turbo_2022/11.webp"
   ],
     price: 8200000,
     description: 'Honda Civic 1.5 RS Turbo 2022',
@@ -1517,15 +1517,15 @@ export const cars: Car[] = [
   }, {
     id: '52',
     title: 'Land Cruiser Prado TX 2008',
-    main_image: '/cars/prado_tx_2008/1.jpg',
+    main_image: '/cars/prado_tx_2008/1.webp',
      images: [
-    "/cars/prado_tx_2008/2.jpg",
-    "/cars/prado_tx_2008/3.jpg",
-    "/cars/prado_tx_2008/4.jpg",
-    "/cars/prado_tx_2008/5.jpg",
-    "/cars/prado_tx_2008/6.jpg",
-    "/cars/prado_tx_2008/7.jpg",
-    "/cars/prado_tx_2008/8.jpg"
+    "/cars/prado_tx_2008/2.webp",
+    "/cars/prado_tx_2008/3.webp",
+    "/cars/prado_tx_2008/4.webp",
+    "/cars/prado_tx_2008/5.webp",
+    "/cars/prado_tx_2008/6.webp",
+    "/cars/prado_tx_2008/7.webp",
+    "/cars/prado_tx_2008/8.webp"
   ],
     price: 7500000,
     description: 'Land Cruiser Prado TX 2008',
@@ -1544,13 +1544,13 @@ export const cars: Car[] = [
   }, {
     id: '53',
     title: 'Toyota Prado TX 2011',
-    main_image: '/cars/prado_tx_11/1.jpg',
+    main_image: '/cars/prado_tx_11/1.webp',
      images: [
-    "/cars/prado_tx_11/2.jpg",
-    "/cars/prado_tx_11/3.jpg",
-    "/cars/prado_tx_11/4.jpg",
-    "/cars/prado_tx_11/5.jpg",
-    "/cars/prado_tx_11/6.jpg"
+    "/cars/prado_tx_11/2.webp",
+    "/cars/prado_tx_11/3.webp",
+    "/cars/prado_tx_11/4.webp",
+    "/cars/prado_tx_11/5.webp",
+    "/cars/prado_tx_11/6.webp"
   ],
     price: 15500000,
     description: 'Toyota Prado TX 2011',
@@ -1569,16 +1569,16 @@ export const cars: Car[] = [
   }, {
     id: '54',
     title: 'Nissan Tiida Latio 2007 Model',
-    main_image: '/cars/nissanTiida_07/1.jpg',
+    main_image: '/cars/nissanTiida_07/1.webp',
      images: [
-    "/cars/nissanTiida_07/2.jpg",
-    "/cars/nissanTiida_07/3.jpg",
-    "/cars/nissanTiida_07/4.jpg",
-    "/cars/nissanTiida_07/5.jpg",
-    "/cars/nissanTiida_07/6.jpg",
-    "/cars/nissanTiida_07/7.jpg",
-    "/cars/nissanTiida_07/8.jpg",
-    "/cars/nissanTiida_07/9.jpg"
+    "/cars/nissanTiida_07/2.webp",
+    "/cars/nissanTiida_07/3.webp",
+    "/cars/nissanTiida_07/4.webp",
+    "/cars/nissanTiida_07/5.webp",
+    "/cars/nissanTiida_07/6.webp",
+    "/cars/nissanTiida_07/7.webp",
+    "/cars/nissanTiida_07/8.webp",
+    "/cars/nissanTiida_07/9.webp"
   ],
     price: 1850000,
     description: 'Nissan Tiida Latio 2007 Model',
@@ -1598,17 +1598,17 @@ export const cars: Car[] = [
   {
     id: '55',
     title: 'Honda Civic 2021 UG',
-    main_image: '/cars/civic511_2021/1.jpg',
+    main_image: '/cars/civic511_2021/1.webp',
      images: [
-    "/cars/civic511_2021/2.jpg",
-    "/cars/civic511_2021/3.jpg",
-    "/cars/civic511_2021/4.jpg",
-    "/cars/civic511_2021/5.jpg",
-    "/cars/civic511_2021/6.jpg",
-    "/cars/civic511_2021/7.jpg",
-    "/cars/civic511_2021/8.jpg",
-    "/cars/civic511_2021/9.jpg",
-    "/cars/civic511_2021/10.jpg"
+    "/cars/civic511_2021/2.webp",
+    "/cars/civic511_2021/3.webp",
+    "/cars/civic511_2021/4.webp",
+    "/cars/civic511_2021/5.webp",
+    "/cars/civic511_2021/6.webp",
+    "/cars/civic511_2021/7.webp",
+    "/cars/civic511_2021/8.webp",
+    "/cars/civic511_2021/9.webp",
+    "/cars/civic511_2021/10.webp"
   ],
     price: 6200000,
     description: 'Honda Civic 2021 UG',
