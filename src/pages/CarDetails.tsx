@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { useParams, Navigate, useNavigate,Link } from "react-router-dom";
 import { useState, ReactNode } from "react";
 import { cars } from "@/data/cars";
@@ -36,6 +37,18 @@ const CarDetails = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>{car.title} - Autoclass Motors</title>
+        <meta name="description" content={`Buy ${car.title} for Rs. ${car.price.toLocaleString()}. ${car.description || "Premium cars at Autoclass Motors."}`} />
+        <meta property="og:title" content={`${car.title} - Autoclass Motors`} />
+        <meta property="og:description" content={`Buy ${car.title} for Rs. ${car.price.toLocaleString()}. ${car.description || "Premium cars at Autoclass Motors."}`} />
+        <meta property="og:image" content={`https://autoclassmotors.app${car.main_image}`} />
+        <meta property="og:type" content="product" />
+        <meta name="twitter:title" content={`${car.title} - Autoclass Motors`} />
+        <meta name="twitter:description" content={`Buy ${car.title} for Rs. ${car.price.toLocaleString()}. ${car.description || "Premium cars at Autoclass Motors."}`} />
+        <meta name="twitter:image" content={`https://autoclassmotors.app${car.main_image}`} />
+      </Helmet>
+      
       <Navbar />
 
       <div className="container mx-auto px-4 py-8 mt-20">
