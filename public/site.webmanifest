@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "Autoclass Motors",
+  "short_name": "Autoclass",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
