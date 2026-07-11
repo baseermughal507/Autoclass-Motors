@@ -37,12 +37,14 @@ const About = () => {
             </div>
             
             <div className="rounded-xl overflow-hidden shadow-xl mx-auto w-full max-w-sm aspect-[9/16]"> 
-            <video src="/stock.mp4" // replace with your file path
-             autoPlay 
-             loop
-            muted 
-            playsInline 
-            className="w-full h-full object-cover" /> 
+              <video 
+                src="/stock.mp4" 
+                autoPlay 
+                loop
+                muted 
+                playsInline 
+                className="w-full h-full object-cover" 
+              />
             </div>
 
             <div className="mt-10 text-center">

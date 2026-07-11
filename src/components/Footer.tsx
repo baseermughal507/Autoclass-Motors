@@ -18,6 +18,8 @@ const Footer = () => {
                 src="/AMlogo.png"   
                 alt="Autoclass Motors Logo"
                 className="h-14 w-auto rounded-lg shadow-[0_0_12px_rgba(255,0,0,0.3)]"
+                width={140}
+                height={56}
               />
               <div className="flex flex-col justify-center">
                <h3 className="text-lg font-bold">AUTOCLASS MOTORS</h3>
@@ -85,6 +87,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-accent transition-colors"
+              aria-label="Visit our Facebook page"
             >
               <FacebookIcon />
             </a>
@@ -93,6 +96,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-accent transition-colors"
+              aria-label="Visit our Instagram page"
             >
               <InstagramIcon />
             </a>
@@ -102,6 +106,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="hover:scale-105 transition-transform"
+              aria-label="Visit our TikTok page"
             >
               <TikTokIcon />
             </a>

@@ -1,5 +1,5 @@
 import { useParams, Navigate, useNavigate,Link } from "react-router-dom";
-import { useState } from "react";
+import { useState, ReactNode } from "react";
 import { cars } from "@/data/cars";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -69,6 +69,8 @@ const CarDetails = () => {
                   loading="eager"
                   className="w-full h-[500px] object-cover rounded-lg cursor-pointer transition-transform group-hover:scale-[1.02]"
                   onClick={() => setLightboxIndex(0)}
+                  width={1200}
+                  height={800}
                 />
               </div>
 
@@ -86,6 +88,8 @@ const CarDetails = () => {
                           ? "border-accent scale-105"
                           : "border-transparent hover:scale-105"
                       }`}
+                      width={112}
+                      height={80}
                     />
                   ))}
                 </div>
@@ -168,14 +172,19 @@ const CarDetails = () => {
           <button
             onClick={() => setLightboxIndex(null)}
             className="absolute top-6 right-6 text-white text-3xl"
+            aria-label="Close Lightbox"
           >
             <X className="h-8 w-8" />
           </button>
 
           <button
             className="absolute left-4 text-white hover:text-accent"
+            aria-label="Previous Image"
             onClick={() =>
-              setLightboxIndex((prev) => (prev! > 0 ? prev! - 1 : images.length - 1))
+              setLightboxIndex((prev) => {
+                if (prev === null) return 0;
+                return prev > 0 ? prev - 1 : images.length - 1;
+              })
             }
           >
             <ChevronLeft className="h-10 w-10" />
@@ -185,12 +194,18 @@ const CarDetails = () => {
             src={images[lightboxIndex]}
             alt="Car Large"
             className="max-h-[90vh] max-w-[90vw] object-contain rounded-lg"
+            width={1200}
+            height={800}
           />
 
           <button
             className="absolute right-4 text-white hover:text-accent"
+            aria-label="Next Image"
             onClick={() =>
-              setLightboxIndex((prev) => (prev! < images.length - 1 ? prev! + 1 : 0))
+              setLightboxIndex((prev) => {
+                if (prev === null) return 0;
+                return prev < images.length - 1 ? prev + 1 : 0;
+              })
             }
           >
             <ChevronRight className="h-10 w-10" />
@@ -202,7 +217,7 @@ const CarDetails = () => {
 };
 
 // ✅ Reusable spec component
-const Spec = ({ icon, label, value }: { icon: JSX.Element; label: string; value: any }) => (
+const Spec = ({ icon, label, value }: { icon: JSX.Element; label: string; value: ReactNode }) => (
   <div className="flex items-start gap-3">
     <div className="text-accent mt-1">{icon}</div>
     <div>

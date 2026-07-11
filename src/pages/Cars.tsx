@@ -9,6 +9,8 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import CarAnimation from "@/components/CarIcon";
 
+const reversedCars = [...cars].reverse();
+
 const Cars = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -41,7 +43,7 @@ const Cars = () => {
 
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {[...cars].reverse().map((car) => (
+          {reversedCars.map((car) => (
             <Link key={car.id} to={`/cars/${car.id}`}>
               <Card className="group overflow-hidden hover:shadow-xl transition-shadow relative h-full border">
                 {car.is_sold && (
@@ -55,10 +57,12 @@ const Cars = () => {
                   </div>
                 )}
                 <img
-                src={car.main_image}
-                alt={car.title}
-                className="w-full h-56 object-cover group-hover:scale-105 transition-transform"
-              />
+                  src={car.main_image}
+                  alt={car.title}
+                  className="w-full h-56 object-cover group-hover:scale-105 transition-transform"
+                  width={600}
+                  height={400}
+                />
                 <CardContent className="p-6">
                   <h3 className="font-bold text-xl mb-2">{car.title}</h3>
                   <p className="text-2xl font-bold text-accent mb-2">

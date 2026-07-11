@@ -26,8 +26,10 @@ const Navbar = () => {
     src="/AMlogo.png"
     alt="Autoclass Motors Logo"
     className="h-20 w-auto object-contain"
-
-
+    loading="eager"
+    fetchPriority="high"
+    width={200}
+    height={80}
   />
   {/*
  <div>
@@ -70,6 +72,7 @@ const Navbar = () => {
           <button
             className="md:hidden text-white hover:text-accent transition-colors"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            aria-label="Toggle menu"
           >
             {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>

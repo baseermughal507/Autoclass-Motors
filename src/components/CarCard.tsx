@@ -28,6 +28,8 @@ export function CarCard({ car }: CarCardProps) {
                 src={img}
                 alt={`${car.title} ${index + 1}`}
                 className="w-full h-56 object-cover rounded-t-2xl"
+                width={600}
+                height={400}
               />
             </CarouselItem>
           )

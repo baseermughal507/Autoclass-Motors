@@ -12,46 +12,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { cars } from "@/data/cars";
 
 
-const LazyVideo = ({ src }) => {
-  const videoRef = useRef(null);
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setIsVisible(true);
-            observer.disconnect(); // stop observing once visible
-          }
-        });
-      },
-      { threshold: 0.3 } // trigger when 30% of the video is visible
-    );
-
-    if (videoRef.current) observer.observe(videoRef.current);
-
-    return () => observer.disconnect();
-  }, []);
-
-  return (
-    <div ref={videoRef} className="w-full h-full relative">
-      {isVisible && (
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          preload="metadata"
-          className="w-full h-96 md:h-[500px] object-cover"
-        >
-          <source src={src} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      )}
-    </div>
-  );
-};
+import LazyVideoPlayer from "@/components/LazyVideoPlayer";
 const Index = () => {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -68,16 +29,11 @@ const Index = () => {
 
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          preload="auto"
-          className="absolute inset-0 w-full h-full object-cover"
-        >
-          <source src="/Final-Exterior-1.mp4" type="video/mp4" />
-        </video>
+        <LazyVideoPlayer 
+          src="/Final-Exterior-1.mp4" 
+          priority={true} 
+          containerClassName="absolute inset-0 w-full h-full" 
+        />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-primary/10 to-transparent" />
 
         <div className="relative z-10 container mx-auto px-4 text-center md:text-left">
@@ -169,6 +125,8 @@ const Index = () => {
                               alt={car.title}
                               
                               className="w-full h-56 object-cover group-hover:scale-105 transition-transform"
+                              width={600}
+                              height={400}
                             />
                             <CardContent className="p-6">
                               <h3 className="font-bold text-xl mb-2">{car.title}</h3>
@@ -215,7 +173,7 @@ const Index = () => {
       {/* Full-Width Video Section (Lazy Loaded) */}
       <section className="py-12 relative">
         <div className="w-full overflow-hidden relative">
-          <LazyVideo src="/interior.mp4" />
+          <LazyVideoPlayer src="/interior.mp4" containerClassName="w-full h-[500px] relative" />
           {/* Black overlay */}
           <div className="absolute inset-0 bg-black/20"></div>
         </div>
