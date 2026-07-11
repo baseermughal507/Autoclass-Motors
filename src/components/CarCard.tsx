@@ -30,6 +30,7 @@ export function CarCard({ car }: CarCardProps) {
                 className="w-full h-56 object-cover rounded-t-2xl"
                 width={600}
                 height={400}
+                loading="lazy"
               />
             </CarouselItem>
           )
