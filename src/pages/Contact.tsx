@@ -16,6 +16,7 @@ const Contact = () => {
     phone: "",
     message: "",
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const { pathname, hash } = useLocation();
 
@@ -41,6 +42,7 @@ const Contact = () => {
       return;
     }
 
+    setIsSubmitting(true);
     try {
       const response = await fetch("https://formspree.io/f/xgvnplqg", {
         method: "POST",
@@ -80,6 +82,8 @@ const Contact = () => {
         description: "Something went wrong. Please check your internet connection.",
         variant: "destructive",
       });
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -157,8 +161,9 @@ const Contact = () => {
                   <Button
                     type="submit"
                     className="w-full bg-accent hover:bg-accent/90 text-primary-foreground"
+                    disabled={isSubmitting}
                   >
-                    Send Message
+                    {isSubmitting ? "Sending..." : "Send Message"}
                   </Button>
                 </form>
               </div>
